@@ -102,9 +102,9 @@
       "expectedPointSpacingKm": 0.5046109680583487,
       "normalizedRadius": 0.36841976093547646,
       "activityPerPoint": 152.16760247052218,
-      "playableAreaKm2": 1307,
-      "playableAreaPerPointKm2": 0.36692869174621,
-      "playableCatchmentRadiusKm": 0.3417558047894773,
+      "playableAreaKm2": 1592,
+      "playableAreaPerPointKm2": 0.4469399213924761,
+      "playableCatchmentRadiusKm": 0.3771808525222767,
       "localityScore": 0.9456941522354997,
       "deaggregationScore": 1,
       "score": 0.9724680726046998
@@ -112,7 +112,7 @@
     "polycentrism": {
       "activity": {
         "score": 0,
-        "continuousScore": 0.2485811532611703,
+        "continuousScore": 0.8748879865452585,
         "detectedCenterCount": 1,
         "effectiveCenterCount": 1,
         "largestCenterShare": 1,
