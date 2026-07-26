@@ -545,12 +545,6 @@
           "fingerprint": "rules:v6:github:hernang87/amba-buenos-aires-metropolitan-area-for-subway-builder:v0.3.0:amba.zip",
           "checked_at": "2026-07-26T03:56:28.225Z",
           "released_at": "2026-07-25T22:29:09.000Z"
-        },
-        "asset_sizes": {
-          "amba.zip": 507319607
-        },
-        "asset_updated_at": {
-          "amba.zip": "2026-07-25T22:29:09Z"
         }
       }
     },
