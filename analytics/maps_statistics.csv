@@ -25,15 +25,15 @@ rank,id,name,author,author_alias,attribution_link,city_code,country,population,p
 24,incheon-3,Incheon (30km×30km),kimth9,kimth9,https://github.com/kimth9,ICN3,KR,4749878,65173,1623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 25,south-florida,South Florida,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,SFL,US,4627711,179115,16324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 26,greater-chicagoland,Greater Chicagoland,NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,GCHI,US,4338851,313080,16205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-27,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,ESBC,ES,4073925,124371,6117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-28,toronto,Toronto,devenperez,devenperez,https://github.com/devenperez,YYZ,CA,4039647,33650,11203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-29,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,HKG,HK,4038323,236084,1965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-30,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,BER,DE,3926141,39805,921,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-31,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FOKK,JP,3784807,62022,30844,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-32,busan-4,Busan (40km×40km),kimth9,kimth9,https://github.com/kimth9,PUS4,KR,3762661,44668,1153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-33,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,GNYC,US,3735824,269793,5151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-34,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,PUS3,KR,3602364,43343,1060,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-35,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,SIN,SG,3529424,31692,1095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,SIN,SG,4204500,31692,1076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,ESBC,ES,4073925,124371,6117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,toronto,Toronto,devenperez,devenperez,https://github.com/devenperez,YYZ,CA,4039647,33650,11203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,HKG,HK,4038323,236084,1965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,BER,DE,3926141,39805,921,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FOKK,JP,3784807,62022,30844,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,busan-4,Busan (40km×40km),kimth9,kimth9,https://github.com/kimth9,PUS4,KR,3762661,44668,1153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,GNYC,US,3735824,269793,5151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,PUS3,KR,3602364,43343,1060,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 36,los-angeles-county,Los Angeles County,rslurry,slurry,https://github.com/rslurry,LAXM,US,3202061,76804,4034,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 37,sydney,Sydney,WillBarouch,WillBarouch,https://github.com/WillBarouch,SYD,AU,3176499,25580,9687,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 38,sejong-4,Sejong (40km×40km),kimth9,kimth9,https://github.com/kimth9,SEJ4,KR,3144215,46497,1259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
