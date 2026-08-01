@@ -12,13 +12,13 @@ rank,id,name,author,author_alias,attribution_link,city_code,country,population,p
 11,chongqing,Chongqing,Kronifer,Kronifer,https://github.com/Kronifer,CKG,CN,8597215,150607,50748,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 12,istanbul,Istanbul,pierreggt,pierreggt,https://github.com/pierreggt,IST,TR,8148850,78934,65040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 13,amba,Buenos Aires,hernang87,hernang87,https://github.com/hernang87,BUE,AR,7794695,92190,6000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-14,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,CDMC,MX,6752085,106735,8364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-15,incheon-4,Incheon (40km×40km),kimth9,kimth9,https://github.com/kimth9,ICN4,KR,6718676,88336,2533,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-16,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ITM,JP,6539892,59693,18608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-17,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,KUL,MY,6249021,41536,2337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-18,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,BKK,TH,6033126,40981,13860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-19,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TPE,TW,6018123,51045,12641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-20,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGO,JP,5912459,77505,30963,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGO,JP,6996523,96710,51076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,CDMC,MX,6752085,106735,8364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,incheon-4,Incheon (40km×40km),kimth9,kimth9,https://github.com/kimth9,ICN4,KR,6718676,88336,2533,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ITM,JP,6539892,59693,18608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,KUL,MY,6249021,41536,2337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,BKK,TH,6033126,40981,13860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TPE,TW,6018123,51045,12641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 21,paris-ile-de-france,Paris,pierreggt,pierreggt,https://github.com/pierreggt,PAR,FR,5758500,137626,33218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 22,greater-los-angeles,Greater Los Angeles,rslurry,slurry,https://github.com/rslurry,LAX,US,5519727,171398,6976,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 23,madrid,Madrid,Maximilian284,max02,https://github.com/Maximilian284,ESMD,ES,4801093,144717,5610,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
