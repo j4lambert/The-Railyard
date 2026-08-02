@@ -6880,12 +6880,6 @@
           "fingerprint": "rules:v6:github:nzh0172/sb-malaysia-map-pack:v1.1.0:KUL.zip",
           "checked_at": "2026-08-02T06:46:34.357Z",
           "released_at": "2026-08-02T04:59:24.000Z"
-        },
-        "asset_sizes": {
-          "KUL.zip": 129968913
-        },
-        "asset_updated_at": {
-          "KUL.zip": "2026-08-02T05:01:03Z"
         }
       }
     },
