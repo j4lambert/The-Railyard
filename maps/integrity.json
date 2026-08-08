@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T12:00:46.945Z",
+  "generated_at": "2026-08-08T16:53:38.821Z",
   "listings": {
     "akron-oh": {
       "has_complete_version": true,
@@ -7107,14 +7107,13 @@
     "greater-kuala-lumpur": {
       "has_complete_version": true,
       "latest_semver_version": "v1.1.0",
-      "latest_semver_complete": false,
+      "latest_semver_complete": true,
       "complete_versions": [
+        "v1.1.0",
         "v1.0.0"
       ],
-      "incomplete_versions": [
-        "v1.1.0"
-      ],
-      "last_updated": 1785646764,
+      "incomplete_versions": [],
+      "last_updated": 1785778842,
       "versions": {
         "v1.0.0": {
           "is_complete": true,
@@ -7164,10 +7163,8 @@
           "released_at": "2026-03-17T14:39:45.000Z"
         },
         "v1.1.0": {
-          "is_complete": false,
-          "errors": [
-            "no game_version found (declare a \"subway-builder\" dependency range in the release manifest.json)"
-          ],
+          "is_complete": true,
+          "errors": [],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -7178,8 +7175,7 @@
             "roads_geojson": true,
             "runways_taxiways_geojson": true,
             "city_pmtiles": true,
-            "config_version_matches_tag": true,
-            "game_version_valid": false
+            "config_version_matches_tag": true
           },
           "matched_files": {
             "config_json": "config.json",
@@ -7187,15 +7183,15 @@
             "demand_point_spacing": "demand_data.json",
             "demand_phantom_points": "demand_data.json",
             "demand_residents_match": "demand_data.json",
-            "buildings_index": "buildings_index.bin",
-            "buildings_index_json": null,
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
             "buildings_index_bin": "buildings_index.bin",
             "roads_geojson": "roads.geojson",
             "runways_taxiways_geojson": "runways_taxiways.geojson",
             "city_pmtiles": "KUL.pmtiles",
             "config_version_matches_tag": "config.json"
           },
-          "release_size": 123.95,
+          "release_size": 156.96,
           "file_sizes": {
             "KUL.pmtiles": 56.38,
             "KUL.svg": 0.12,
@@ -7207,12 +7203,14 @@
             "__MACOSX/._roads.geojson": 0,
             "__MACOSX/._runways_taxiways.geojson": 0,
             "buildings_index.bin": 113.79,
+            "buildings_index.json": 165.08,
             "config.json": 0,
             "demand_data.json": 11.19,
             "ocean_depth_index.json": 5.92,
             "roads.geojson": 44.45,
             "runways_taxiways.geojson": 1.46
           },
+          "game_version": ">=1.0.0",
           "source": {
             "update_type": "github",
             "repo": "nzh0172/sb-malaysia-map-pack",
@@ -7221,8 +7219,8 @@
             "download_url": "https://github.com/nzh0172/sb-malaysia-map-pack/releases/download/v1.1.0/KUL.zip"
           },
           "fingerprint": "rules:v6:github:nzh0172/sb-malaysia-map-pack:v1.1.0:KUL.zip",
-          "checked_at": "2026-08-02T16:00:51.297Z",
-          "released_at": "2026-08-02T04:59:24.000Z"
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-03T17:40:42.000Z"
         }
       }
     },
@@ -7817,13 +7815,16 @@
     },
     "greatertwincities": {
       "has_complete_version": true,
-      "latest_semver_version": "v1.0.0",
+      "latest_semver_version": "v2.0.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v2.0.1",
         "v1.0.0"
       ],
-      "incomplete_versions": [],
-      "last_updated": 1773468546,
+      "incomplete_versions": [
+        "v2.0.0"
+      ],
+      "last_updated": 1785798829,
       "versions": {
         "v1.0.0": {
           "is_complete": true,
@@ -7869,6 +7870,102 @@
           "fingerprint": "rules:v6:github:danield1909/improvedtwincities:v1.0.0:KMSP.zip",
           "checked_at": "2026-07-07T03:43:59.556Z",
           "released_at": "2026-03-14T06:09:06.000Z"
+        },
+        "v2.0.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'KMSP.zip': demand_data contains 1 of 5808 points (0.0%) with neither residents nor jobs (e.g. UNI_RLNC)"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": false,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json.gz",
+            "buildings_index_json": "buildings_index.json.gz",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KMSP.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 402.83,
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/improvedtwincities",
+            "tag": "v2.0.0",
+            "asset_name": "KMSP.zip",
+            "download_url": "https://github.com/DanielD1909/improvedTwinCities/releases/download/v2.0.0/KMSP.zip"
+          },
+          "fingerprint": "rules:v6:github:danield1909/improvedtwincities:v2.0.0:KMSP.zip",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-03T12:52:04.000Z"
+        },
+        "v2.0.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json.gz",
+            "buildings_index_json": "buildings_index.json.gz",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KMSP.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 402.83,
+          "file_sizes": {
+            "KMSP.pmtiles": 172.18,
+            "KMSP_foundations.pmtiles": 82.65,
+            "buildings_index.bin.gz": 72.65,
+            "buildings_index.json.gz": 51.47,
+            "config.json": 0,
+            "demand_data.json": 13.27,
+            "ocean_depth_index.json.gz": 17.82,
+            "roads.geojson": 61.72,
+            "runways_taxiways.geojson": 1.38
+          },
+          "game_version": ">=1.4.21",
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/improvedtwincities",
+            "tag": "v2.0.1",
+            "asset_name": "KMSP.zip",
+            "download_url": "https://github.com/DanielD1909/improvedTwinCities/releases/download/v2.0.1/KMSP.zip"
+          },
+          "fingerprint": "rules:v6:github:danield1909/improvedtwincities:v2.0.1:KMSP.zip",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-03T23:13:49.000Z"
         }
       }
     },
@@ -11676,13 +11773,14 @@
     },
     "lyon": {
       "has_complete_version": true,
-      "latest_semver_version": "v1.0.0",
+      "latest_semver_version": "v1.0.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v1.0.2",
         "v1.0.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784467901,
+      "last_updated": 1786095708,
       "versions": {
         "v1.0.0": {
           "is_complete": true,
@@ -11735,6 +11833,58 @@
           "fingerprint": "rules:v6:github:pierreggt/subway-builder-lyon:v1.0.0:lyon_flat_v1.0.0.zip|lyon_v1.0.0.zip",
           "checked_at": "2026-07-20T01:21:04.101Z",
           "released_at": "2026-07-19T13:31:41.000Z"
+        },
+        "v1.0.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json.gz",
+            "demand_point_spacing": "demand_data.json.gz",
+            "demand_phantom_points": "demand_data.json.gz",
+            "demand_residents_match": "demand_data.json.gz",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson.gz",
+            "runways_taxiways_geojson": "runways_taxiways.geojson.gz",
+            "city_pmtiles": "LSY.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 34.17,
+          "file_sizes": {
+            "LSY.pmtiles": 18.92,
+            "buildings_index.bin.gz": 11.15,
+            "config.json": 0,
+            "demand_data.json.gz": 0.35,
+            "ocean_depth_index.json.gz": 1.19,
+            "ocean_depth_index_contours.json.gz": 1.04,
+            "roads.geojson.gz": 1.97,
+            "runways_taxiways.geojson.gz": 0.08
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "github",
+            "repo": "pierreggt/subway-builder-lyon",
+            "tag": "v1.0.2",
+            "asset_name": "lyon_v1.0.2.zip",
+            "download_url": "https://github.com/pierreggt/subway-builder-lyon/releases/download/v1.0.2/lyon_v1.0.2.zip"
+          },
+          "fingerprint": "rules:v6:github:pierreggt/subway-builder-lyon:v1.0.2:lyon_v1.0.2.zip",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-07T09:41:48.000Z"
         }
       }
     },
@@ -11939,13 +12089,14 @@
     },
     "marseille": {
       "has_complete_version": true,
-      "latest_semver_version": "v1.0.0",
+      "latest_semver_version": "v1.0.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v1.0.2",
         "v1.0.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784466595,
+      "last_updated": 1786095539,
       "versions": {
         "v1.0.0": {
           "is_complete": true,
@@ -11998,6 +12149,58 @@
           "fingerprint": "rules:v6:github:pierreggt/subway-builder-marseille:v1.0.0:marseille_flat_v1.0.0.zip|marseille_v1.0.0.zip",
           "checked_at": "2026-07-20T01:21:04.101Z",
           "released_at": "2026-07-19T13:09:55.000Z"
+        },
+        "v1.0.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json.gz",
+            "demand_point_spacing": "demand_data.json.gz",
+            "demand_phantom_points": "demand_data.json.gz",
+            "demand_residents_match": "demand_data.json.gz",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson.gz",
+            "runways_taxiways_geojson": "runways_taxiways.geojson.gz",
+            "city_pmtiles": "MAR.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 59.8,
+          "file_sizes": {
+            "MAR.pmtiles": 33.47,
+            "buildings_index.bin.gz": 18.06,
+            "config.json": 0,
+            "demand_data.json.gz": 0.35,
+            "ocean_depth_index.json.gz": 3.12,
+            "ocean_depth_index_contours.json.gz": 2.64,
+            "roads.geojson.gz": 3.01,
+            "runways_taxiways.geojson.gz": 0.08
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "github",
+            "repo": "pierreggt/subway-builder-marseille",
+            "tag": "v1.0.2",
+            "asset_name": "marseille_v1.0.2.zip",
+            "download_url": "https://github.com/pierreggt/subway-builder-marseille/releases/download/v1.0.2/marseille_v1.0.2.zip"
+          },
+          "fingerprint": "rules:v6:github:pierreggt/subway-builder-marseille:v1.0.2:marseille_v1.0.2.zip",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-07T09:38:59.000Z"
         }
       }
     },
@@ -16009,13 +16212,14 @@
     },
     "paris-ile-de-france": {
       "has_complete_version": true,
-      "latest_semver_version": "v1.0.0",
+      "latest_semver_version": "v1.0.5",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v1.0.5",
         "v1.0.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784385339,
+      "last_updated": 1786095409,
       "versions": {
         "v1.0.0": {
           "is_complete": true,
@@ -16068,6 +16272,58 @@
           "fingerprint": "rules:v6:github:pierreggt/subway-builder-paris:v1.0.0:paris_v1.0.0.zip",
           "checked_at": "2026-07-19T03:59:19.466Z",
           "released_at": "2026-07-18T14:35:39.000Z"
+        },
+        "v1.0.5": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json.gz",
+            "demand_point_spacing": "demand_data.json.gz",
+            "demand_phantom_points": "demand_data.json.gz",
+            "demand_residents_match": "demand_data.json.gz",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson.gz",
+            "runways_taxiways_geojson": "runways_taxiways.geojson.gz",
+            "city_pmtiles": "PRS.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 221.07,
+          "file_sizes": {
+            "PRS.pmtiles": 124.39,
+            "buildings_index.bin.gz": 78.91,
+            "config.json": 0,
+            "demand_data.json.gz": 3.84,
+            "ocean_depth_index.json.gz": 3.24,
+            "ocean_depth_index_contours.json.gz": 2.83,
+            "roads.geojson.gz": 11.41,
+            "runways_taxiways.geojson.gz": 0.74
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "github",
+            "repo": "pierreggt/subway-builder-paris",
+            "tag": "v1.0.5",
+            "asset_name": "paris_v1.0.5.zip",
+            "download_url": "https://github.com/pierreggt/subway-builder-paris/releases/download/v1.0.5/paris_v1.0.5.zip"
+          },
+          "fingerprint": "rules:v6:github:pierreggt/subway-builder-paris:v1.0.5:paris_v1.0.5.zip",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-07T09:36:49.000Z"
         }
       }
     },
@@ -24014,15 +24270,16 @@
     },
     "yukina-asahikawa": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -24176,6 +24433,61 @@
           "fingerprint": "rules:v6:sha256:13084f06f63e5d39fa4d16de5a94b04927e76bd808f78f3ddf53c087972be432",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "AKJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 128.61,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 11.1,
+            ".railyard_map/special_demand_points.json": 0.11,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "AKJ.pmtiles": 46.84,
+            "buildings_index.bin.gz": 27.01,
+            "buildings_index.json": 75.93,
+            "config.json": 0.01,
+            "demand_data.json": 24.6,
+            "ocean_depth_index.json": 73.58,
+            "roads.geojson": 11.08,
+            "runways_taxiways.geojson": 0.13
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "AKJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/AKJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:60220bbd1e758b436ead3a7ca585a19c0f436617289401e324e31dd5504787f2",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
@@ -28614,9 +28926,10 @@
     },
     "yukina-fukuoka": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.0",
+      "latest_semver_version": "0.6.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.1",
         "0.6.0",
         "0.5.1",
         "0.5.0",
@@ -28625,7 +28938,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -28922,14 +29235,70 @@
           "fingerprint": "rules:v6:sha256:22b972870246e19a14fb6ecbbea7c458118fc31e22192f84cdb5bb124af3f48f",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.6.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FUK.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 168.51,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 16.22,
+            ".railyard_map/special_demand_points.json": 0.27,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "FUK.pmtiles": 59.49,
+            "buildings_index.bin.gz": 47.14,
+            "buildings_index.json": 133.53,
+            "config.json": 0.01,
+            "demand_data.json": 55.68,
+            "ocean_depth_index.json": 40.43,
+            "roads.geojson": 23.94,
+            "runways_taxiways.geojson": 0.64
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "FUK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/FUK.zip"
+          },
+          "fingerprint": "rules:v6:sha256:3ec3f4806ad5b54efd9b5cab1081abbfc4e66bb587deb3b3812e40837e9a06bd",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-hakodate": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.1",
+      "latest_semver_version": "0.5.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.0",
@@ -28937,7 +29306,7 @@
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -29192,14 +29561,70 @@
           "fingerprint": "rules:v6:sha256:bfafda70fa41d9bb91e375516ab216e40462cb14c6835831142432a51ba50c28",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.5.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HKD.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 94.91,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 4.63,
+            ".railyard_map/special_demand_points.json": 0.08,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "HKD.pmtiles": 42.31,
+            "buildings_index.bin.gz": 18.63,
+            "buildings_index.json": 52.29,
+            "config.json": 0.01,
+            "demand_data.json": 28.88,
+            "ocean_depth_index.json": 67.84,
+            "roads.geojson": 6.57,
+            "runways_taxiways.geojson": 0.16
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "HKD.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/HKD.zip"
+          },
+          "fingerprint": "rules:v6:sha256:aed753d42c06a72ec7c33e19809825e2c988f4290f66f3dc934758933db8d447",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-hiroshima-kure": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.1",
+      "latest_semver_version": "0.6.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.2",
         "0.6.1",
         "0.6.0",
         "0.5.0",
@@ -29208,7 +29633,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -29508,21 +29933,77 @@
           "fingerprint": "rules:v6:sha256:ef4f0892d9e82181191849da235977de8ea9445c0388ea5bd8961ae2ba14bca4",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HIJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 179.06,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 15.8,
+            ".railyard_map/special_demand_points.json": 0.25,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "HIJ.pmtiles": 64.62,
+            "buildings_index.bin.gz": 47.18,
+            "buildings_index.json": 132.87,
+            "config.json": 0.01,
+            "demand_data.json": 74.82,
+            "ocean_depth_index.json": 36.58,
+            "roads.geojson": 29.69,
+            "runways_taxiways.geojson": 0.12
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "HIJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/HIJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:b003924bb5bbcdbabb1b04a64338193782964d00f2eefae60cddbef6684b9a4b",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kagoshima-kirishima": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.0",
+      "latest_semver_version": "0.5.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.1",
         "0.5.0",
         "0.4.0",
         "0.3.0",
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -29719,19 +30200,75 @@
           "fingerprint": "rules:v6:sha256:21b2b72ff1d3ccbd813f9aa564beefd8c6d332aeba49d759f318085d8cd18cc9",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.5.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KOJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 174.04,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 15.63,
+            ".railyard_map/special_demand_points.json": 0.22,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KOJ.pmtiles": 60.83,
+            "buildings_index.bin.gz": 37.89,
+            "buildings_index.json": 106.33,
+            "config.json": 0.01,
+            "demand_data.json": 98.66,
+            "ocean_depth_index.json": 74.41,
+            "roads.geojson": 36.57,
+            "runways_taxiways.geojson": 0.52
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "KOJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/KOJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:27a4bc667cbdd151b2b7f76ef5268cb4db698513881a3a0c0331b118ded36c7f",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-keihanshin": {
       "has_complete_version": true,
-      "latest_semver_version": "0.1.1",
+      "latest_semver_version": "0.1.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -29840,14 +30377,69 @@
           "fingerprint": "rules:v6:sha256:6bb79de2f973ec7be670d2a4c478dc8d2d3e7622b16b469df1d4ef8925e0d6a2",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.1.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KHS.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 500.17,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 49.4,
+            ".railyard_map/special_demand_points.json": 1.58,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KHS.pmtiles": 214.69,
+            "buildings_index.bin.gz": 203.03,
+            "config.json": 0.02,
+            "demand_data.json": 24.55,
+            "ocean_depth_index.json": 59.99,
+            "roads.geojson": 110.85,
+            "runways_taxiways.geojson": 2.12
+          },
+          "game_version": ">1.3.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.9",
+            "asset_name": "KHS.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.9/KHS.zip"
+          },
+          "fingerprint": "rules:v6:sha256:ec7ea91ea283f871c475d9d5b3fa1bed54a7e4e6698a73c155a246a889499b3d",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kitakyushu-shimonoseki": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.0",
+      "latest_semver_version": "0.6.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.1",
         "0.6.0",
         "0.5.1",
         "0.5.0",
@@ -29856,7 +30448,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -30153,14 +30745,70 @@
           "fingerprint": "rules:v6:sha256:5cf092d2a3a2008787301e26545149849974319a689bf12c7644f1648c620596",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.6.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KKJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 148.59,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 10.86,
+            ".railyard_map/special_demand_points.json": 0.27,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KKJ.pmtiles": 51.75,
+            "buildings_index.bin.gz": 36.69,
+            "buildings_index.json": 102.52,
+            "config.json": 0.01,
+            "demand_data.json": 99.56,
+            "ocean_depth_index.json": 40.91,
+            "roads.geojson": 30.92,
+            "runways_taxiways.geojson": 0.4
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "KKJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/KKJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:4c4445c14a0e15dd69f8ec173d4fa8b12b5395d24a9e1e3bc80b33e3e1360a6f",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kobe-akashi": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.1",
+      "latest_semver_version": "0.5.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.0",
@@ -30168,7 +30816,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -30420,14 +31068,70 @@
           "fingerprint": "rules:v6:sha256:26ba1deaa0f97b9d3a3ddfc14e5bf3b9ec7893b11cc2e6df26cb6832ab396c55",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.5.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "UKB.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 317.93,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 23.52,
+            ".railyard_map/special_demand_points.json": 0.45,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "UKB.pmtiles": 115.5,
+            "buildings_index.bin.gz": 89.09,
+            "buildings_index.json": 252.73,
+            "config.json": 0.01,
+            "demand_data.json": 137.93,
+            "ocean_depth_index.json": 44.79,
+            "roads.geojson": 48.67,
+            "runways_taxiways.geojson": 0.17
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "UKB.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/UKB.zip"
+          },
+          "fingerprint": "rules:v6:sha256:d34ff1b30c9ac1fbd5075bf1b372002a5f305be5e2046bcf8431bf4e1956aae5",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kochi": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.1",
+      "latest_semver_version": "0.6.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.2",
         "0.6.1",
         "0.6.0",
         "0.5.0",
@@ -30436,7 +31140,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -30738,19 +31442,75 @@
           "fingerprint": "rules:v6:sha256:057303a4b80d1e1714329feb59314b5d94e0c346e4817b15263799677be2ecb5",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KCZ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 88.81,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 9.14,
+            ".railyard_map/special_demand_points.json": 0.12,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KCZ.pmtiles": 31.79,
+            "buildings_index.bin.gz": 17.39,
+            "buildings_index.json": 48.93,
+            "config.json": 0.01,
+            "demand_data.json": 56.76,
+            "ocean_depth_index.json": 33.98,
+            "roads.geojson": 19.73,
+            "runways_taxiways.geojson": 0.13
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "KCZ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/KCZ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:b34e513d84b22623654365b5edd7bd805edd80ca203b99135098ccd4ce7a5cc1",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kumamoto": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -30856,14 +31616,70 @@
           "fingerprint": "rules:v6:sha256:963f2963ca6773d4fcf1f9288acbf1bd0bd576a7fab70c0b8d59c79f69557143",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KMJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 199.3,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 13.99,
+            ".railyard_map/special_demand_points.json": 0.23,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KMJ.pmtiles": 75.31,
+            "buildings_index.bin.gz": 49.82,
+            "buildings_index.json": 139.44,
+            "config.json": 0.01,
+            "demand_data.json": 96.06,
+            "ocean_depth_index.json": 44.52,
+            "roads.geojson": 34.23,
+            "runways_taxiways.geojson": 0.16
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "KMJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/KMJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:856cd81a7fb84bf0f67c2fdbb29d017f2fabb5482b00f60298d6f4bc2e0aefc1",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-kyoto": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.0",
+      "latest_semver_version": "0.6.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.1",
         "0.6.0",
         "0.5.0",
         "0.4.0",
@@ -30871,7 +31687,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -31118,6 +31934,61 @@
           "fingerprint": "rules:v6:sha256:c3f6afc121241340b3cc93ef33aab7141ebbec827f5d6f218511c32dc6f229f4",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "UKY.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 318.69,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 23.91,
+            ".railyard_map/special_demand_points.json": 0.37,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "UKY.pmtiles": 106.91,
+            "buildings_index.bin.gz": 92.09,
+            "buildings_index.json": 273.45,
+            "config.json": 0.01,
+            "demand_data.json": 102.04,
+            "ocean_depth_index.json": 77.23,
+            "roads.geojson": 37.16,
+            "runways_taxiways.geojson": 0.02
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "UKY.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/UKY.zip"
+          },
+          "fingerprint": "rules:v6:sha256:966eb09be322edb4200639c0655dcc0dcb5e867daa10a61eb38b2db631decee6",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
@@ -32251,9 +33122,10 @@
     },
     "yukina-matsuyama": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.1",
+      "latest_semver_version": "0.6.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.2",
         "0.6.1",
         "0.6.0",
         "0.5.0",
@@ -32262,7 +33134,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -32564,19 +33436,75 @@
           "fingerprint": "rules:v6:sha256:1003faa56977ebf07345a7fa6107e6542711d95b5c49a5a9c9f517bbba112757",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MYJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 148.9,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 16.79,
+            ".railyard_map/special_demand_points.json": 0.18,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "MYJ.pmtiles": 53.21,
+            "buildings_index.bin.gz": 31.95,
+            "buildings_index.json": 90.83,
+            "config.json": 0.01,
+            "demand_data.json": 65.22,
+            "ocean_depth_index.json": 56.65,
+            "roads.geojson": 34.66,
+            "runways_taxiways.geojson": 0.13
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "MYJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/MYJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:3c68494d5303d7a3b80b2fc4bb1a657a00d1995589352b27eb37af7ae37098a3",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-morioka": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -32682,21 +33610,77 @@
           "fingerprint": "rules:v6:sha256:cab9530e6ad9588e62c5f72b11de03f457323de2e3323dc3d77e8a7c4fdcc5fd",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HNA.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 213.92,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 22.31,
+            ".railyard_map/special_demand_points.json": 0.17,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "HNA.pmtiles": 77.43,
+            "buildings_index.bin.gz": 46.08,
+            "buildings_index.json": 127.48,
+            "config.json": 0.01,
+            "demand_data.json": 101.03,
+            "ocean_depth_index.json": 72.25,
+            "roads.geojson": 25.44,
+            "runways_taxiways.geojson": 0.06
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "HNA.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/HNA.zip"
+          },
+          "fingerprint": "rules:v6:sha256:0b507299dab69811bd8f99f7cd2accc4c4b0345e485653e8f5a8a6b2dfb57a8a",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-nagasaki": {
       "has_complete_version": true,
-      "latest_semver_version": "0.3.1",
+      "latest_semver_version": "0.3.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.3.2",
         "0.3.1",
         "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -32901,20 +33885,76 @@
           "fingerprint": "rules:v6:sha256:e3808a05466e6a0066f12dd320fff57bcb3b77c8709bdb776c0b7b57016b802b",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.3.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "NGS.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 117.47,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 7.76,
+            ".railyard_map/special_demand_points.json": 0.15,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "NGS.pmtiles": 42.57,
+            "buildings_index.bin.gz": 27.05,
+            "buildings_index.json": 75.89,
+            "config.json": 0.01,
+            "demand_data.json": 72.12,
+            "ocean_depth_index.json": 47.47,
+            "roads.geojson": 21.86,
+            "runways_taxiways.geojson": 0.19
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "NGS.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/NGS.zip"
+          },
+          "fingerprint": "rules:v6:sha256:3e15fb270194c659bf6a46e4c16eb94187f2346e923ae548a62c30eabcb95a61",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-nagoya": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.5",
         "0.1.4"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785456000,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.4": {
           "is_complete": true,
@@ -33064,21 +34104,76 @@
           "fingerprint": "rules:v6:sha256:40ab6ec18f61868b2c505773516239df22cfbe7bc71571a341395ee9a88d22aa",
           "checked_at": "2026-07-31T06:08:33.179Z",
           "released_at": "2026-07-31T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "NGO.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 572.14,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 70.79,
+            ".railyard_map/special_demand_points.json": 1.14,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "NGO.pmtiles": 217.54,
+            "buildings_index.bin.gz": 239.69,
+            "config.json": 0.02,
+            "demand_data.json": 22.64,
+            "ocean_depth_index.json": 108.81,
+            "roads.geojson": 127.11,
+            "runways_taxiways.geojson": 1.11
+          },
+          "game_version": ">1.3.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.9",
+            "asset_name": "NGO.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.9/NGO.zip"
+          },
+          "fingerprint": "rules:v6:sha256:188459fb09303502e74f2ac35d9984043e481afb5e83e3f258d9fbfa926d168b",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-nakadoori": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.1",
+      "latest_semver_version": "0.2.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -33287,21 +34382,77 @@
           "fingerprint": "rules:v6:sha256:88e40d92758773b34146a3d884f3aa18bd308c264ca4fd4c4861bf721a6c7677",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FKS.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 199.49,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 12.48,
+            ".railyard_map/special_demand_points.json": 0.17,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "FKS.pmtiles": 71.62,
+            "buildings_index.bin.gz": 51.96,
+            "buildings_index.json": 145.3,
+            "config.json": 0.01,
+            "demand_data.json": 86.01,
+            "ocean_depth_index.json": 45.55,
+            "roads.geojson": 34.36,
+            "runways_taxiways.geojson": 0.18
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "FKS.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/FKS.zip"
+          },
+          "fingerprint": "rules:v6:sha256:042b5f914673c00b2bacbd7cd417c02f9b84291097f7716fa91b4dc036614391",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-nakaumi": {
       "has_complete_version": true,
-      "latest_semver_version": "0.4.0",
+      "latest_semver_version": "0.4.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.4.1",
         "0.4.0",
         "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -33501,20 +34652,76 @@
           "fingerprint": "rules:v6:sha256:ae8f060ab707f3532719db331657f24e3c8886e173b8daade1148d0b23f00514",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.4.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "IZO.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 138.7,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 23.31,
+            ".railyard_map/special_demand_points.json": 0.14,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "IZO.pmtiles": 45.53,
+            "buildings_index.bin.gz": 26.63,
+            "buildings_index.json": 74.41,
+            "config.json": 0.01,
+            "demand_data.json": 79.57,
+            "ocean_depth_index.json": 48.32,
+            "roads.geojson": 23.16,
+            "runways_taxiways.geojson": 0.24
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "IZO.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/IZO.zip"
+          },
+          "fingerprint": "rules:v6:sha256:6c9fc2678fbdb03bcf7e7854e7e666caff1cc05b940ec0ad18de9edba4a2369d",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-nemuro": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1782604800,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -33662,14 +34869,69 @@
           "fingerprint": "rules:v6:sha256:b79f6a58eebef78cb4cfbd6031da40cb1615b63f2bc6ee33432bc3c3a7b5c4d0",
           "checked_at": "2026-07-07T03:43:59.556Z",
           "released_at": "2026-06-28T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SHB.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 47.04,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 6.65,
+            ".railyard_map/special_demand_points.json": 0.02,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "SHB.pmtiles": 24.2,
+            "buildings_index.bin.gz": 5.73,
+            "config.json": 0,
+            "demand_data.json": 9.02,
+            "ocean_depth_index.json": 52.57,
+            "roads.geojson": 2.55,
+            "runways_taxiways.geojson": 0.07
+          },
+          "game_version": ">1.3.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "SHB.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/SHB.zip"
+          },
+          "fingerprint": "rules:v6:sha256:97ce1527209ef72cad61ca0f88fa7b82c73f196f66666e38ccbfcf0f37058891",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-niigata": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.1",
+      "latest_semver_version": "0.5.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.0",
@@ -33677,7 +34939,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -33929,20 +35191,76 @@
           "fingerprint": "rules:v6:sha256:2b48c32d47c0e3e2be9a65584e21a5f1d6597bd2f546a7824862b25e1ca5585b",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.5.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KIJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 260.75,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 17.34,
+            ".railyard_map/special_demand_points.json": 0.27,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "KIJ.pmtiles": 106.76,
+            "buildings_index.bin.gz": 71.49,
+            "buildings_index.json": 199.83,
+            "config.json": 0.01,
+            "demand_data.json": 85.7,
+            "ocean_depth_index.json": 36.58,
+            "roads.geojson": 32.17,
+            "runways_taxiways.geojson": 0.18
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "KIJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/KIJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:f79b939ab21cf8ae6c3e6e5d58264ba5999d02531e155ec883d742ac73fcdbca",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-northern-kyushu": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -34098,19 +35416,75 @@
           "fingerprint": "rules:v6:sha256:35c6a3bca4812cbd51f98eb78c195ba15893eeb7c2067f3d56d4271da8494b10",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FOKK.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 446.41,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 78.36,
+            ".railyard_map/special_demand_points.json": 0.72,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "FOKK.pmtiles": 138.05,
+            "buildings_index.bin.gz": 120.57,
+            "buildings_index.json": 339.69,
+            "config.json": 0.01,
+            "demand_data.json": 14.59,
+            "ocean_depth_index.json": 108.69,
+            "roads.geojson": 92.13,
+            "runways_taxiways.geojson": 1.11
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.9",
+            "asset_name": "FOKK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.9/FOKK.zip"
+          },
+          "fingerprint": "rules:v6:sha256:ff47770a5f97a00f6df21bb70de1165faf5b1e464ff6ad8ccf3ba35271e4a4b1",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-okayama": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -34213,14 +35587,70 @@
           "fingerprint": "rules:v6:sha256:42c746756d38471b2f4f7cb020d21c893b1df7352db5b8e895aaaf2c17029651",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "OKJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 201.26,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 18.64,
+            ".railyard_map/special_demand_points.json": 0.23,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "OKJ.pmtiles": 68.9,
+            "buildings_index.bin.gz": 51.62,
+            "buildings_index.json": 146.69,
+            "config.json": 0.01,
+            "demand_data.json": 92.15,
+            "ocean_depth_index.json": 44.32,
+            "roads.geojson": 36.17,
+            "runways_taxiways.geojson": 0.28
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "OKJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/OKJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:595e115b2d5dc07b77305152ef9f4095aebd408b1465edeba511d2b005c2b25b",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-okinawa": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.0",
+      "latest_semver_version": "0.6.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.1",
         "0.6.0",
         "0.5.0",
         "0.4.0",
@@ -34228,7 +35658,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -34475,14 +35905,70 @@
           "fingerprint": "rules:v6:sha256:f7317ad7a84c7fc62bd8f016a82325e37f3af710873d2f78271072679c221cf2",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "OKA.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 100.59,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 11.84,
+            ".railyard_map/special_demand_points.json": 0.18,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "OKA.pmtiles": 38.11,
+            "buildings_index.bin.gz": 17.25,
+            "buildings_index.json": 48.07,
+            "config.json": 0.01,
+            "demand_data.json": 66.7,
+            "ocean_depth_index.json": 54.61,
+            "roads.geojson": 17.83,
+            "runways_taxiways.geojson": 1.68
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "OKA.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/OKA.zip"
+          },
+          "fingerprint": "rules:v6:sha256:2c30e6a26e2296decb2291003b3f58a8d022befbfd03dfe2679261f45791572e",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-osaka": {
       "has_complete_version": true,
-      "latest_semver_version": "0.3.0",
+      "latest_semver_version": "0.3.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.3.1",
         "0.3.0",
         "0.2.0",
         "0.1.3",
@@ -34491,7 +35977,7 @@
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784592000,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -34785,6 +36271,60 @@
           "fingerprint": "rules:v6:sha256:087d8ee888b55da612ed52ab0ec1e087b16e7149e53c44e2644e592f8c8604d0",
           "checked_at": "2026-07-20T17:13:55.613Z",
           "released_at": "2026-07-21T00:00:00.000Z"
+        },
+        "0.3.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ITM.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 344.17,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 18.23,
+            ".railyard_map/special_demand_points.json": 0.92,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "ITM.pmtiles": 154.79,
+            "buildings_index.bin.gz": 154.75,
+            "config.json": 0.01,
+            "demand_data.json": 13.32,
+            "ocean_depth_index.json": 34.64,
+            "roads.geojson": 60.01,
+            "runways_taxiways.geojson": 1.93
+          },
+          "game_version": ">1.3.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.9",
+            "asset_name": "ITM.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.9/ITM.zip"
+          },
+          "fingerprint": "rules:v6:sha256:ae4bf478ded563eff7b22dd080c581ff752e61b10fc3a77b7579aee3e959538c",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
@@ -38392,9 +39932,10 @@
     },
     "yukina-sapporo-chitose": {
       "has_complete_version": true,
-      "latest_semver_version": "0.6.1",
+      "latest_semver_version": "0.6.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.6.2",
         "0.6.1",
         "0.6.0",
         "0.5.0",
@@ -38403,7 +39944,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -38705,14 +40246,70 @@
           "fingerprint": "rules:v6:sha256:0fcce4fea76054f31bb553d2e95d0b84d8b1023db2409c9476e4befc3166084f",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.6.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SPK.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 262.25,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 16.58,
+            ".railyard_map/special_demand_points.json": 0.36,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "SPK.pmtiles": 102.32,
+            "buildings_index.bin.gz": 73.69,
+            "buildings_index.json": 205.89,
+            "config.json": 0.01,
+            "demand_data.json": 53.68,
+            "ocean_depth_index.json": 73,
+            "roads.geojson": 24.89,
+            "runways_taxiways.geojson": 0.8
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "SPK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/SPK.zip"
+          },
+          "fingerprint": "rules:v6:sha256:b14ff13571af940a24929c7f76b2bf820c624f9bd44e2d48cdef32b8757b9302",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-sendai": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.1",
+      "latest_semver_version": "0.5.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.0",
@@ -38720,7 +40317,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -38972,19 +40569,75 @@
           "fingerprint": "rules:v6:sha256:ee37e4f9c50a3e6d9f5e59d302ed73ae6b104e3c6db1a5ea88754965201fdefe",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.5.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SDJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 160.2,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 12.89,
+            ".railyard_map/special_demand_points.json": 0.21,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "SDJ.pmtiles": 60.84,
+            "buildings_index.bin.gz": 46.13,
+            "buildings_index.json": 130.68,
+            "config.json": 0.01,
+            "demand_data.json": 47.39,
+            "ocean_depth_index.json": 18.21,
+            "roads.geojson": 22.66,
+            "runways_taxiways.geojson": 0.29
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "SDJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/SDJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:fcb1c3ef9bbed80a8394f8491d543fff388cc21349b778b490037b8a1fb46be5",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-shizuoka-hamamatsu": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -39088,20 +40741,76 @@
           "fingerprint": "rules:v6:sha256:ae6db7c652a20e8abf66e0f2f9e285cd458d175502505547ec8b563db84c6292",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FSZ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 351.21,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 45.41,
+            ".railyard_map/special_demand_points.json": 0.23,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "FSZ.pmtiles": 121.03,
+            "buildings_index.bin.gz": 97.91,
+            "buildings_index.json": 248.99,
+            "config.json": 0.01,
+            "demand_data.json": 72.76,
+            "ocean_depth_index.json": 54.52,
+            "roads.geojson": 44.2,
+            "runways_taxiways.geojson": 0.45
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "FSZ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/FSZ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:886f983f4f9b67b3f788e69a1e208c71d7f374f440002db4637dfcad83f22e69",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-takamatsu": {
       "has_complete_version": true,
-      "latest_semver_version": "0.3.0",
+      "latest_semver_version": "0.3.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.3.1",
         "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -39251,19 +40960,75 @@
           "fingerprint": "rules:v6:sha256:a673bab2632ae0869ba9a8660035a3b1fbfb63543a7175ee7d0e8e206a80a483",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.3.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TAK.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 123.65,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 10.89,
+            ".railyard_map/special_demand_points.json": 0.15,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "TAK.pmtiles": 43.89,
+            "buildings_index.bin.gz": 29.47,
+            "buildings_index.json": 81.84,
+            "config.json": 0.01,
+            "demand_data.json": 52.94,
+            "ocean_depth_index.json": 48.88,
+            "roads.geojson": 22.06,
+            "runways_taxiways.geojson": 0.14
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "TAK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/TAK.zip"
+          },
+          "fingerprint": "rules:v6:sha256:52454082d1abe2c4ef9f4f746fbb21148ea477ece6a5632cd8f77fbb0ba7ea08",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-tottori": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.0",
+      "latest_semver_version": "0.2.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.1",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -39369,21 +41134,77 @@
           "fingerprint": "rules:v6:sha256:4875b08187234693417b7c917ec8ef521859b9a40e9c01e2061378cb7781ab64",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.2.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TTJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 92.86,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 9.37,
+            ".railyard_map/special_demand_points.json": 0.07,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "TTJ.pmtiles": 32.92,
+            "buildings_index.bin.gz": 18.04,
+            "buildings_index.json": 50.75,
+            "config.json": 0.01,
+            "demand_data.json": 38.11,
+            "ocean_depth_index.json": 54.48,
+            "roads.geojson": 13.96,
+            "runways_taxiways.geojson": 0.07
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "TTJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/TTJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:1492c79fb03574d15480054aa22de230995609b426912b2ecb38a5bcecb1985f",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-toyama": {
       "has_complete_version": true,
-      "latest_semver_version": "0.3.1",
+      "latest_semver_version": "0.3.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.3.2",
         "0.3.1",
         "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -39588,21 +41409,77 @@
           "fingerprint": "rules:v6:sha256:90205325fbe060817c2ea2c3c8a9df5169b00ad9695c3ba33ada7a7884801a8b",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.3.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TOY.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 179.44,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 11.9,
+            ".railyard_map/special_demand_points.json": 0.17,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "TOY.pmtiles": 71.75,
+            "buildings_index.bin.gz": 46.04,
+            "buildings_index.json": 128.46,
+            "config.json": 0.01,
+            "demand_data.json": 57.79,
+            "ocean_depth_index.json": 40.65,
+            "roads.geojson": 27.9,
+            "runways_taxiways.geojson": 0.03
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "TOY.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/TOY.zip"
+          },
+          "fingerprint": "rules:v6:sha256:48f1c5b4188ccc839f1d5e7bebab63f674f47b1ea6c1b0534a5f9a0da01aeed3",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-tsugaru": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.1",
+      "latest_semver_version": "0.2.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1785110400,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -39811,6 +41688,61 @@
           "fingerprint": "rules:v6:sha256:85a948947622f9d16b37783b03eb677b11a2cff099b599b52bc5bf7294201dfd",
           "checked_at": "2026-07-26T18:03:10.195Z",
           "released_at": "2026-07-27T00:00:00.000Z"
+        },
+        "0.2.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "AOJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 140.67,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 13.68,
+            ".railyard_map/special_demand_points.json": 0.12,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "AOJ.pmtiles": 55.8,
+            "buildings_index.bin.gz": 31.39,
+            "buildings_index.json": 88.18,
+            "config.json": 0.01,
+            "demand_data.json": 59.02,
+            "ocean_depth_index.json": 54.43,
+            "roads.geojson": 13.39,
+            "runways_taxiways.geojson": 0.17
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "AOJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/AOJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:bff7fa3749d18771fad06b5562631e2aa031e06e59ca54878b21a5dbe3985420",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
@@ -41895,9 +43827,10 @@
     },
     "yukina-wakkanai": {
       "has_complete_version": true,
-      "latest_semver_version": "0.2.2",
+      "latest_semver_version": "0.2.3",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.2.3",
         "0.2.2",
         "0.2.1",
         "0.2.0",
@@ -41905,7 +43838,7 @@
         "0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1782604800,
+      "last_updated": 1785888000,
       "versions": {
         "0.1.0": {
           "is_complete": true,
@@ -42156,14 +44089,70 @@
           "fingerprint": "rules:v6:sha256:6df8d6a74081ac0545535d6b0721b2a4d56eb1a9e61ea11846e32f2397b0ee9e",
           "checked_at": "2026-07-07T03:43:59.556Z",
           "released_at": "2026-06-28T00:00:00.000Z"
+        },
+        "0.2.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "WKJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 33.97,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 4.17,
+            ".railyard_map/special_demand_points.json": 0.02,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "WKJ.pmtiles": 13.09,
+            "buildings_index.bin.gz": 4.77,
+            "buildings_index.json": 12.03,
+            "config.json": 0.01,
+            "demand_data.json": 7,
+            "ocean_depth_index.json": 47.02,
+            "roads.geojson": 2.85,
+            "runways_taxiways.geojson": 0.09
+          },
+          "game_version": ">1.3.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "WKJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/WKJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:aa6c2607b98db3f42734ceeff5c548f6b36fd4ed77e2a9ca19c420649da71fa0",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
     "yukina-yamagata": {
       "has_complete_version": true,
-      "latest_semver_version": "0.5.1",
+      "latest_semver_version": "0.5.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.0",
@@ -42171,7 +44160,7 @@
         "0.2.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784505600,
+      "last_updated": 1785888000,
       "versions": {
         "0.2.0": {
           "is_complete": true,
@@ -42423,6 +44412,61 @@
           "fingerprint": "rules:v6:sha256:389fd698635eb7b4cdb62c796e25e9b3161c27a4af9e82b5ca15a205917a99a4",
           "checked_at": "2026-07-20T16:20:33.350Z",
           "released_at": "2026-07-20T00:00:00.000Z"
+        },
+        "0.5.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "buildings_index_json": "buildings_index.json",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "GAJ.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 136.69,
+          "file_sizes": {
+            ".railyard_map/landuse_provenance.parquet": 5.5,
+            ".railyard_map/special_demand_points.json": 0.14,
+            ".railyard_map/special_demand_types.json": 0.07,
+            "GAJ.pmtiles": 54.84,
+            "buildings_index.bin.gz": 33.49,
+            "buildings_index.json": 94.45,
+            "config.json": 0.01,
+            "demand_data.json": 52.81,
+            "ocean_depth_index.json": 46.65,
+            "roads.geojson": 14.13,
+            "runways_taxiways.geojson": 0.03
+          },
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.4.10",
+            "asset_name": "GAJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.4.10/GAJ.zip"
+          },
+          "fingerprint": "rules:v6:sha256:d96b5ab73585712133eaf4c80ac486fb1e0610184adc89b15944246dcc1b49ea",
+          "checked_at": "2026-08-08T16:53:38.821Z",
+          "released_at": "2026-08-05T00:00:00.000Z"
         }
       }
     },
