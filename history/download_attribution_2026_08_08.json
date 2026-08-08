@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026_08_08",
+  "generated_at": "2026-08-08T05:12:06.428Z",
+  "source_ledger_updated_at": "2026-08-03T12:03:17.590Z",
+  "total_attributed_fetches": 12584,
+  "net_attributed_fetches": 28,
+  "daily_attributed_fetches": 0,
+  "assets_daily": {}
+}
