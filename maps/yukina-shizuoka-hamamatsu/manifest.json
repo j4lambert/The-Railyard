@@ -28,14 +28,14 @@
   },
   "city_code": "FSZ",
   "country": "JP",
-  "population": 1575575,
-  "residents_total": 1575575,
-  "points_count": 13499,
-  "population_count": 26320,
+  "population": 1577894,
+  "residents_total": 1577894,
+  "points_count": 15003,
+  "population_count": 34377,
   "initial_view_state": {
-    "latitude": 34.832936,
-    "longitude": 138.063872,
-    "zoom": 12,
+    "latitude": 34.832726,
+    "longitude": 138.063073,
+    "zoom": 10,
     "bearing": 0
   },
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -54,103 +54,107 @@
   "difficulty": "medium",
   "file_sizes": {
     ".railyard_map/landuse_provenance.parquet": 45.41,
-    ".railyard_map/special_demand_points.json": 0.21,
+    ".railyard_map/regions/manifest.json": 0,
+    ".railyard_map/regions/ooaza.geojson.gz": 4.72,
+    ".railyard_map/regions/shichouson.geojson.gz": 1.09,
+    ".railyard_map/special_demand_points.json": 0.23,
     ".railyard_map/special_demand_types.json": 0.07,
-    "FSZ.pmtiles": 147.08,
+    "FSZ.pmtiles": 121.05,
     "buildings_index.bin.gz": 97.91,
     "buildings_index.json": 248.99,
     "config.json": 0.01,
-    "demand_data.json": 73.22,
+    "demand_data.json": 5.84,
+    "driving_paths.json.gz": 10.09,
     "ocean_depth_index.json": 54.52,
     "roads.geojson": 44.2,
     "runways_taxiways.geojson": 0.45
   },
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
-      "p10": 0.1487779602597068,
-      "p25": 0.16317957140105918,
-      "p50": 0.18773407573726544,
-      "p75": 0.23325428595997363,
-      "p90": 0.28540620717314186,
-      "mean": 0.2065729104163287
+      "p10": 0.16302735795417894,
+      "p25": 0.17449117091960606,
+      "p50": 0.1885761451748013,
+      "p75": 0.21239026458862603,
+      "p90": 0.24889832958145644,
+      "mean": 0.2013940396520944
     },
     "workerWeightedNearestNeighborKm": {
-      "p10": 0.13994720075662218,
-      "p25": 0.15624501239297459,
-      "p50": 0.17833163817255246,
-      "p75": 0.22824750609948122,
-      "p90": 0.29484701893686754,
-      "mean": 0.20151739679314057
+      "p10": 0.15142168168486772,
+      "p25": 0.17391106154831498,
+      "p50": 0.19008389169433818,
+      "p75": 0.2169962979089043,
+      "p90": 0.26766500049181907,
+      "mean": 0.20347734857479344
     },
     "commuteDistanceKm": {
-      "p10": 1909,
-      "p25": 4179,
-      "p50": 8019,
-      "p75": 15975,
-      "p90": 30959,
-      "mean": 13508.728305471124
+      "p10": 775,
+      "p25": 2512,
+      "p50": 6149,
+      "p75": 13579,
+      "p90": 26040,
+      "mean": 11112.219943566919
     },
     "residentCellDensity": {
-      "p10": 28,
+      "p10": 29,
       "p25": 64,
-      "p50": 231,
-      "p75": 801,
-      "p90": 1914,
-      "mean": 658.0054347826087
+      "p50": 224,
+      "p75": 796,
+      "p90": 1934,
+      "mean": 655.0881130507065
     },
     "workerCellDensity": {
       "p10": 26,
-      "p25": 64,
-      "p50": 252,
-      "p75": 841,
-      "p90": 1895,
-      "mean": 715.0726612170754
+      "p25": 67,
+      "p50": 260,
+      "p75": 839,
+      "p90": 1883,
+      "mean": 714.6683280471228
     },
     "detail": {
-      "radiusKm": 0.18297247133663735,
-      "expectedPointSpacingKm": 0.4410588717677767,
-      "normalizedRadius": 0.4148481825187608,
-      "activityPerPoint": 116.71790503000223,
-      "playableAreaKm2": 3784,
-      "playableAreaPerPointKm2": 0.2803170605230017,
-      "playableCatchmentRadiusKm": 0.2987100460822358,
-      "localityScore": 0.8200250047543212,
+      "radiusKm": 0.1893285175443539,
+      "expectedPointSpacingKm": 0.41971986734796185,
+      "normalizedRadius": 0.45108304913142033,
+      "activityPerPoint": 105.17189895354262,
+      "playableAreaKm2": 3772,
+      "playableAreaPerPointKm2": 0.2514163833899887,
+      "playableCatchmentRadiusKm": 0.28289277187939527,
+      "localityScore": 0.7313619631467341,
       "deaggregationScore": 1,
-      "score": 0.9055523202743844
+      "score": 0.8551970317691322
     },
     "polycentrism": {
       "activity": {
-        "score": 0.9974425998498613,
-        "continuousScore": 0.9154244640865562,
+        "score": 0.9973543089429207,
+        "continuousScore": 0.9149585205826449,
         "detectedCenterCount": 2,
-        "effectiveCenterCount": 1.9948982469238057,
-        "largestCenterShare": 0.5252853720070451,
+        "effectiveCenterCount": 1.9947225803079252,
+        "largestCenterShare": 0.5257181407623073,
         "bandwidthKm": 1.3,
         "reliabilityScore": 1,
         "supportLevel": "high",
         "usedFallback": false,
         "topCenters": [
           {
-            "longitude": 137.79987983290354,
-            "latitude": 34.74061935116136,
-            "massShare": 0.5252853720070451,
-            "assignedMass": 1655253,
-            "assignedPointCount": 7915,
+            "longitude": 137.79939170520456,
+            "latitude": 34.740682655886985,
+            "massShare": 0.5257181407623073,
+            "assignedMass": 1659055,
+            "assignedPointCount": 8848,
             "prominenceRatio": 1
           },
           {
-            "longitude": 138.3523417834924,
-            "latitude": 34.932702677592346,
-            "massShare": 0.47471462799295494,
-            "assignedMass": 1495897,
-            "assignedPointCount": 5584,
+            "longitude": 138.35210210892845,
+            "latitude": 34.93245030271992,
+            "massShare": 0.4742818592376928,
+            "assignedMass": 1496733,
+            "assignedPointCount": 6155,
             "prominenceRatio": 1
           }
         ]
       }
     }
   },
-  "last_updated": 1785110400,
+  "last_updated": 1786579200,
   "search_aliases": [
     "Hamamatsu",
     "静岡市",

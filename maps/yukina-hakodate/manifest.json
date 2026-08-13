@@ -25,10 +25,10 @@
   },
   "city_code": "HKD",
   "country": "JP",
-  "population": 236784,
-  "residents_total": 236784,
-  "points_count": 4023,
-  "population_count": 7875,
+  "population": 237047,
+  "residents_total": 237047,
+  "points_count": 4299,
+  "population_count": 10372,
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
   "source_quality": "high-quality",
   "level_of_detail": "high-detail",
@@ -41,21 +41,25 @@
     "universities"
   ],
   "initial_view_state": {
-    "latitude": 41.835108,
-    "longitude": 140.680177,
-    "zoom": 12,
+    "latitude": 41.834669,
+    "longitude": 140.6804,
+    "zoom": 10,
     "bearing": 0
   },
   "difficulty": "hard",
   "file_sizes": {
     ".railyard_map/landuse_provenance.parquet": 4.63,
-    ".railyard_map/special_demand_points.json": 0.07,
+    ".railyard_map/regions/manifest.json": 0,
+    ".railyard_map/regions/ooaza.geojson.gz": 1.87,
+    ".railyard_map/regions/shichouson.geojson.gz": 0.92,
+    ".railyard_map/special_demand_points.json": 0.08,
     ".railyard_map/special_demand_types.json": 0.07,
-    "HKD.pmtiles": 50.7,
+    "HKD.pmtiles": 42.31,
     "buildings_index.bin.gz": 18.63,
     "buildings_index.json": 52.29,
     "config.json": 0.01,
-    "demand_data.json": 30.91,
+    "demand_data.json": 1.71,
+    "driving_paths.json.gz": 3.75,
     "ocean_depth_index.json": 67.84,
     "roads.geojson": 6.57,
     "runways_taxiways.geojson": 0.16
@@ -63,53 +67,53 @@
   "is_test": false,
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
-      "p10": 0.09920289386961827,
-      "p25": 0.11844551653391816,
-      "p50": 0.15319412668337098,
-      "p75": 0.19433475090300625,
-      "p90": 0.22029125602892716,
-      "mean": 0.16980451034421937
+      "p10": 0.11593189822256586,
+      "p25": 0.12404600956616421,
+      "p50": 0.13663688135931265,
+      "p75": 0.17454051230290665,
+      "p90": 0.20594508337459333,
+      "mean": 0.1606492535991444
     },
     "workerWeightedNearestNeighborKm": {
-      "p10": 0.08284481081634046,
-      "p25": 0.10088816564741283,
-      "p50": 0.13481074968237375,
-      "p75": 0.17979834530829003,
-      "p90": 0.21760118132155348,
-      "mean": 0.15390873924118573
+      "p10": 0.10513685079330709,
+      "p25": 0.12097404241011407,
+      "p50": 0.13584889249552073,
+      "p75": 0.17006029481371537,
+      "p90": 0.20515901629254185,
+      "mean": 0.15736174411312606
     },
     "commuteDistanceKm": {
-      "p10": 1394,
-      "p25": 3225,
-      "p50": 6628,
-      "p75": 13466,
-      "p90": 42245,
-      "mean": 14215.679492063493
+      "p10": 585,
+      "p25": 1939,
+      "p50": 5004,
+      "p75": 10588,
+      "p90": 29623,
+      "mean": 11085.312379483225
     },
     "residentCellDensity": {
       "p10": 13,
       "p25": 21,
       "p50": 53,
-      "p75": 175,
-      "p90": 862,
-      "mean": 291.5270935960591
+      "p75": 173,
+      "p90": 840,
+      "mean": 291.1388206388206
     },
     "workerCellDensity": {
       "p10": 12,
       "p25": 23,
       "p50": 65,
-      "p75": 249,
-      "p90": 1082,
-      "mean": 360.3333333333333
+      "p75": 253,
+      "p90": 1055,
+      "mean": 360.7336377473364
     },
     "detail": {
-      "radiusKm": 0.1437087856225978,
-      "expectedPointSpacingKm": 0.47872978008116934,
-      "normalizedRadius": 0.3001876875055314,
-      "activityPerPoint": 58.857568978374346,
+      "radiusKm": 0.13624231723919145,
+      "expectedPointSpacingKm": 0.46285620748424583,
+      "normalizedRadius": 0.29435128023821244,
+      "activityPerPoint": 55.14003256571296,
       "playableAreaKm2": 1760,
-      "playableAreaPerPointKm2": 0.4374844643301019,
-      "playableCatchmentRadiusKm": 0.37316970676636035,
+      "playableAreaPerPointKm2": 0.40939753431030473,
+      "playableCatchmentRadiusKm": 0.3609920810076554,
       "localityScore": 1,
       "deaggregationScore": 1,
       "score": 1
@@ -117,7 +121,7 @@
     "polycentrism": {
       "activity": {
         "score": 0,
-        "continuousScore": 0.4293449421654346,
+        "continuousScore": 0.4255754596603681,
         "detectedCenterCount": 1,
         "effectiveCenterCount": 1,
         "largestCenterShare": 1,
@@ -127,18 +131,18 @@
         "usedFallback": false,
         "topCenters": [
           {
-            "longitude": 140.6801830627545,
-            "latitude": 41.832424618791954,
+            "longitude": 140.68032316634466,
+            "latitude": 41.83220744915356,
             "massShare": 1,
-            "assignedMass": 473568,
-            "assignedPointCount": 4023,
+            "assignedMass": 474094,
+            "assignedPointCount": 4299,
             "prominenceRatio": 1
           }
         ]
       }
     }
   },
-  "last_updated": 1785110400,
+  "last_updated": 1786579200,
   "search_aliases": [
     "Hakodate",
     "هاكوداته",
