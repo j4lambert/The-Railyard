@@ -25,7 +25,7 @@
   },
   "city_code": "FUK",
   "country": "JP",
-  "population": 1844552,
+  "population": 1849024,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -37,25 +37,29 @@
     "schools",
     "universities"
   ],
-  "residents_total": 1844552,
-  "points_count": 8439,
-  "population_count": 23543,
+  "residents_total": 1849024,
+  "points_count": 8852,
+  "population_count": 31658,
   "initial_view_state": {
-    "latitude": 33.578077,
-    "longitude": 130.425004,
-    "zoom": 12,
+    "latitude": 33.578129,
+    "longitude": 130.425445,
+    "zoom": 10,
     "bearing": 0
   },
   "difficulty": "easy",
   "file_sizes": {
     ".railyard_map/landuse_provenance.parquet": 16.22,
-    ".railyard_map/special_demand_points.json": 0.24,
+    ".railyard_map/regions/manifest.json": 0,
+    ".railyard_map/regions/ooaza.geojson.gz": 4.15,
+    ".railyard_map/regions/shichouson.geojson.gz": 1.4,
+    ".railyard_map/special_demand_points.json": 0.27,
     ".railyard_map/special_demand_types.json": 0.07,
-    "FUK.pmtiles": 68.66,
+    "FUK.pmtiles": 59.5,
     "buildings_index.bin.gz": 47.14,
     "buildings_index.json": 133.53,
     "config.json": 0.01,
-    "demand_data.json": 50.78,
+    "demand_data.json": 4.96,
+    "driving_paths.json.gz": 6.39,
     "ocean_depth_index.json": 40.43,
     "roads.geojson": 23.94,
     "runways_taxiways.geojson": 0.64
@@ -63,61 +67,61 @@
   "is_test": false,
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
-      "p10": 0.15100199280132245,
-      "p25": 0.16303409350654802,
-      "p50": 0.17148647013357662,
-      "p75": 0.2003476146610762,
-      "p90": 0.23532606127514466,
-      "mean": 0.18501892146492208
+      "p10": 0.1553037171322572,
+      "p25": 0.1698501054891629,
+      "p50": 0.190445454881075,
+      "p75": 0.20992390906629954,
+      "p90": 0.2401324993927209,
+      "mean": 0.19317889723007034
     },
     "workerWeightedNearestNeighborKm": {
-      "p10": 0.13322696281167792,
-      "p25": 0.15612317876196175,
-      "p50": 0.1734859506159885,
-      "p75": 0.21657938627649245,
-      "p90": 0.25285508320138816,
-      "mean": 0.1889048913261248
+      "p10": 0.11784795557293844,
+      "p25": 0.1619751560982979,
+      "p50": 0.1919220221110278,
+      "p75": 0.22202963801999837,
+      "p90": 0.27252119742743436,
+      "mean": 0.19715654686028086
     },
     "commuteDistanceKm": {
-      "p10": 1298,
-      "p25": 3306,
-      "p50": 7129,
-      "p75": 13814,
-      "p90": 24988,
-      "mean": 10329.0101941129
+      "p10": 832,
+      "p25": 2226,
+      "p50": 5450,
+      "p75": 11833,
+      "p90": 22508,
+      "mean": 8890.229957672625
     },
     "residentCellDensity": {
-      "p10": 53,
-      "p25": 130,
-      "p50": 569,
-      "p75": 2488,
-      "p90": 5066,
-      "mean": 1696.6798528058878
+      "p10": 51,
+      "p25": 119,
+      "p50": 548,
+      "p75": 2295,
+      "p90": 5040,
+      "mean": 1686.8147810218977
     },
     "workerCellDensity": {
       "p10": 41,
       "p25": 106,
-      "p50": 485,
-      "p75": 1876,
-      "p90": 3775,
-      "mean": 1676.6709090909092
+      "p50": 472,
+      "p75": 1881,
+      "p90": 3815,
+      "mean": 1673.131221719457
     },
     "detail": {
-      "radiusKm": 0.17248331307376916,
-      "expectedPointSpacingKm": 0.37897085929314916,
-      "normalizedRadius": 0.45513608459363464,
-      "activityPerPoint": 218.57471264367817,
+      "radiusKm": 0.19118231299633975,
+      "expectedPointSpacingKm": 0.3712438028287149,
+      "normalizedRadius": 0.5149777896347748,
+      "activityPerPoint": 208.88206055128785,
       "playableAreaKm2": 1516,
-      "playableAreaPerPointKm2": 0.17964213769403958,
-      "playableCatchmentRadiusKm": 0.2391273058502575,
-      "localityScore": 0.7218909648522065,
+      "playableAreaPerPointKm2": 0.17126073203795752,
+      "playableCatchmentRadiusKm": 0.23348229937782208,
+      "localityScore": 0.5910997178577824,
       "deaggregationScore": 1,
-      "score": 0.849641668500437
+      "score": 0.7688300968730233
     },
     "polycentrism": {
       "activity": {
         "score": 0,
-        "continuousScore": 0.89189697600635,
+        "continuousScore": 0.9002879034562852,
         "detectedCenterCount": 1,
         "effectiveCenterCount": 1,
         "largestCenterShare": 1,
@@ -127,18 +131,18 @@
         "usedFallback": false,
         "topCenters": [
           {
-            "longitude": 130.4261185259691,
-            "latitude": 33.579918857774615,
+            "longitude": 130.42631673613343,
+            "latitude": 33.57989064075346,
             "massShare": 1,
-            "assignedMass": 3689104,
-            "assignedPointCount": 8439,
+            "assignedMass": 3698048,
+            "assignedPointCount": 8852,
             "prominenceRatio": 1
           }
         ]
       }
     }
   },
-  "last_updated": 1784505600,
+  "last_updated": 1786579200,
   "search_aliases": [
     "福岡市",
     "Дадзайфу",

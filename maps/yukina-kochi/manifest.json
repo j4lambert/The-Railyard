@@ -25,7 +25,7 @@
   },
   "city_code": "KCZ",
   "country": "JP",
-  "population": 352815,
+  "population": 353708,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -37,25 +37,29 @@
     "schools",
     "universities"
   ],
-  "residents_total": 352815,
-  "points_count": 6376,
-  "population_count": 12175,
+  "residents_total": 353708,
+  "points_count": 6639,
+  "population_count": 15195,
   "initial_view_state": {
-    "latitude": 33.549124,
-    "longitude": 133.543882,
-    "zoom": 12,
+    "latitude": 33.54906,
+    "longitude": 133.543788,
+    "zoom": 10,
     "bearing": 0
   },
   "difficulty": "medium",
   "file_sizes": {
     ".railyard_map/landuse_provenance.parquet": 9.14,
-    ".railyard_map/special_demand_points.json": 0.11,
+    ".railyard_map/regions/manifest.json": 0,
+    ".railyard_map/regions/ooaza.geojson.gz": 3.14,
+    ".railyard_map/regions/shichouson.geojson.gz": 1.14,
+    ".railyard_map/special_demand_points.json": 0.12,
     ".railyard_map/special_demand_types.json": 0.07,
-    "KCZ.pmtiles": 36.74,
+    "KCZ.pmtiles": 31.8,
     "buildings_index.bin.gz": 17.39,
     "buildings_index.json": 48.93,
     "config.json": 0.01,
-    "demand_data.json": 59.01,
+    "demand_data.json": 2.55,
+    "driving_paths.json.gz": 7.76,
     "ocean_depth_index.json": 33.98,
     "roads.geojson": 19.73,
     "runways_taxiways.geojson": 0.13
@@ -63,53 +67,53 @@
   "is_test": false,
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
-      "p10": 0.10576281863405534,
-      "p25": 0.1246684820792723,
-      "p50": 0.1456404534610229,
-      "p75": 0.18842822889824024,
-      "p90": 0.2362340180271821,
-      "mean": 0.1718064837449363
+      "p10": 0.11560035286661369,
+      "p25": 0.1254876185032167,
+      "p50": 0.142527030770584,
+      "p75": 0.17677329261394698,
+      "p90": 0.22595963675465827,
+      "mean": 0.16965224369964824
     },
     "workerWeightedNearestNeighborKm": {
-      "p10": 0.0933063691469613,
-      "p25": 0.1084833476792441,
-      "p50": 0.1269480501508887,
-      "p75": 0.1656636711586024,
-      "p90": 0.21261981168464822,
-      "mean": 0.14732778322727352
+      "p10": 0.1049679461989777,
+      "p25": 0.11862727865098341,
+      "p50": 0.13430603716298334,
+      "p75": 0.16212152641545122,
+      "p90": 0.20543168091085184,
+      "mean": 0.15028311078837908
     },
     "commuteDistanceKm": {
-      "p10": 1718,
-      "p25": 3944,
-      "p50": 8117,
-      "p75": 16147,
-      "p90": 32443,
-      "mean": 12999.610266940452
+      "p10": 966,
+      "p25": 2694,
+      "p50": 6179,
+      "p75": 12869,
+      "p90": 24776,
+      "mean": 10353.068443566963
     },
     "residentCellDensity": {
       "p10": 11,
-      "p25": 17,
-      "p50": 49,
-      "p75": 169,
-      "p90": 542,
-      "mean": 261.4810971089696
+      "p25": 18,
+      "p50": 50,
+      "p75": 172,
+      "p90": 587,
+      "mean": 262.33382789317506
     },
     "workerCellDensity": {
       "p10": 7,
       "p25": 19,
-      "p50": 64,
-      "p75": 284,
-      "p90": 965,
-      "mean": 385.58032786885246
+      "p50": 63,
+      "p75": 275,
+      "p90": 982,
+      "mean": 383.62147505422996
     },
     "detail": {
-      "radiusKm": 0.13597342236616722,
-      "expectedPointSpacingKm": 0.4763872300698783,
-      "normalizedRadius": 0.28542625365130403,
-      "activityPerPoint": 55.33484943538269,
+      "radiusKm": 0.13835548666895625,
+      "expectedPointSpacingKm": 0.4671785112886196,
+      "normalizedRadius": 0.2961512212694244,
+      "activityPerPoint": 53.277300798313,
       "playableAreaKm2": 2588,
-      "playableAreaPerPointKm2": 0.40589711417816815,
-      "playableCatchmentRadiusKm": 0.3594454954737669,
+      "playableAreaPerPointKm2": 0.3898177436360898,
+      "playableCatchmentRadiusKm": 0.35225394477454164,
       "localityScore": 1,
       "deaggregationScore": 1,
       "score": 1
@@ -117,7 +121,7 @@
     "polycentrism": {
       "activity": {
         "score": 0,
-        "continuousScore": 0.7800570685611321,
+        "continuousScore": 0.7084503212222226,
         "detectedCenterCount": 1,
         "effectiveCenterCount": 1,
         "largestCenterShare": 1,
@@ -127,18 +131,18 @@
         "usedFallback": false,
         "topCenters": [
           {
-            "longitude": 133.54598562401185,
-            "latitude": 33.5498189405443,
+            "longitude": 133.5458644641189,
+            "latitude": 33.549780874834575,
             "massShare": 1,
-            "assignedMass": 705630,
-            "assignedPointCount": 6376,
+            "assignedMass": 707416,
+            "assignedPointCount": 6639,
             "prominenceRatio": 1
           }
         ]
       }
     }
   },
-  "last_updated": 1785110400,
+  "last_updated": 1786579200,
   "search_aliases": [
     "Кочин",
     "Kōchi-shi",

@@ -1064,12 +1064,12 @@
       }
     },
     "greater-chicagoland": {
-      "source_fingerprint": "github:v1.0.1|Downloads_GCHI.zip",
-      "last_checked_at": "2026-06-30T11:23:42.430Z",
+      "source_fingerprint": "github:v1.4.1|GCHI.zip",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 4338851,
-        "points_count": 16205,
-        "population_count": 313080,
+        "residents_total": 4499051,
+        "points_count": 14866,
+        "population_count": 75825,
         "initial_view_state": {
           "latitude": 41.93635,
           "longitude": -87.79865,
@@ -1154,12 +1154,12 @@
       }
     },
     "greatertwincities": {
-      "source_fingerprint": "github:v1.0.0|KMSP.zip",
-      "last_checked_at": "2026-04-01T18:45:40.503Z",
+      "source_fingerprint": "github:v2.0.1|KMSP.zip",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 2003945,
-        "points_count": 5866,
-        "population_count": 304108,
+        "residents_total": 2071369,
+        "points_count": 5807,
+        "population_count": 40632,
         "initial_view_state": {
           "latitude": 44.976483121819996,
           "longitude": -93.26652870436673,
@@ -1604,11 +1604,11 @@
       }
     },
     "lyon": {
-      "source_fingerprint": "github:v1.0.0|lyon_flat_v1.0.0.zip",
-      "last_checked_at": "2026-07-20T01:21:09.598Z",
+      "source_fingerprint": "github:v1.0.2|lyon_v1.0.2.zip",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
         "residents_total": 736894,
-        "points_count": 5229,
+        "points_count": 3608,
         "population_count": 12984,
         "initial_view_state": {
           "latitude": 45.764,
@@ -1640,11 +1640,11 @@
       }
     },
     "marseille": {
-      "source_fingerprint": "github:v1.0.0|marseille_v1.0.0.zip",
-      "last_checked_at": "2026-07-20T01:21:09.598Z",
+      "source_fingerprint": "github:v1.0.2|marseille_v1.0.2.zip",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
         "residents_total": 681085,
-        "points_count": 7402,
+        "points_count": 4874,
         "population_count": 11992,
         "initial_view_state": {
           "latitude": 43.2965,
@@ -2198,12 +2198,12 @@
       }
     },
     "paris-ile-de-france": {
-      "source_fingerprint": "github:v1.0.0|paris_v1.0.0.zip",
-      "last_checked_at": "2026-07-19T03:59:26.829Z",
+      "source_fingerprint": "github:v1.0.5|paris_v1.0.5.zip",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 5758500,
-        "points_count": 33218,
-        "population_count": 137626,
+        "residents_total": 5758050,
+        "points_count": 26465,
+        "population_count": 137837,
         "initial_view_state": {
           "latitude": 48.8566,
           "longitude": 2.3522,
@@ -3242,16 +3242,16 @@
       }
     },
     "yukina-asahikawa": {
-      "source_fingerprint": "sha256:13084f06f63e5d39fa4d16de5a94b04927e76bd808f78f3ddf53c087972be432",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:55dbb670b13f94c8800b8c5f46d9288869e326a6717e1403066ce7a58967b00e",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 317914,
-        "points_count": 6738,
-        "population_count": 11845,
+        "residents_total": 318077,
+        "points_count": 6937,
+        "population_count": 15096,
         "initial_view_state": {
-          "latitude": 43.784362,
-          "longitude": 142.382213,
-          "zoom": 12,
+          "latitude": 43.783978,
+          "longitude": 142.381942,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3566,16 +3566,16 @@
       }
     },
     "yukina-fukuoka": {
-      "source_fingerprint": "sha256:22b972870246e19a14fb6ecbbea7c458118fc31e22192f84cdb5bb124af3f48f",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:0cb9d83c82481d5a46cb24de797dbd47a4b17a6ff771f14d0fbd79e1008a723d",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1844552,
-        "points_count": 8439,
-        "population_count": 23543,
+        "residents_total": 1849024,
+        "points_count": 8852,
+        "population_count": 31658,
         "initial_view_state": {
-          "latitude": 33.578077,
-          "longitude": 130.425004,
-          "zoom": 12,
+          "latitude": 33.578129,
+          "longitude": 130.425445,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3584,16 +3584,16 @@
       }
     },
     "yukina-hakodate": {
-      "source_fingerprint": "sha256:bfafda70fa41d9bb91e375516ab216e40462cb14c6835831142432a51ba50c28",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:9fba0e185b0efa8bb4845f4551565fa2cc02c35c8c6540200890fc853c27457e",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 236784,
-        "points_count": 4023,
-        "population_count": 7875,
+        "residents_total": 237047,
+        "points_count": 4299,
+        "population_count": 10372,
         "initial_view_state": {
-          "latitude": 41.835108,
-          "longitude": 140.680177,
-          "zoom": 12,
+          "latitude": 41.834669,
+          "longitude": 140.6804,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3602,16 +3602,16 @@
       }
     },
     "yukina-hiroshima-kure": {
-      "source_fingerprint": "sha256:ef4f0892d9e82181191849da235977de8ea9445c0388ea5bd8961ae2ba14bca4",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:05328913228c292e93ae8dd0cdebab826d76430def0041814302a31e6fbd0479",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1353757,
-        "points_count": 9330,
-        "population_count": 20555,
+        "residents_total": 1355217,
+        "points_count": 9815,
+        "population_count": 26560,
         "initial_view_state": {
-          "latitude": 34.371245,
-          "longitude": 132.479395,
-          "zoom": 12,
+          "latitude": 34.371478,
+          "longitude": 132.478729,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3620,16 +3620,16 @@
       }
     },
     "yukina-kagoshima-kirishima": {
-      "source_fingerprint": "sha256:21b2b72ff1d3ccbd813f9aa564beefd8c6d332aeba49d759f318085d8cd18cc9",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:e724e3d5fea2d9bdc4106da5db09c8b08695c47ada90bd46e658443cb8c5fcab",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 751766,
-        "points_count": 9537,
-        "population_count": 17834,
+        "residents_total": 752140,
+        "points_count": 10185,
+        "population_count": 23103,
         "initial_view_state": {
-          "latitude": 31.618696,
-          "longitude": 130.527374,
-          "zoom": 12,
+          "latitude": 31.618717,
+          "longitude": 130.526825,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3638,16 +3638,16 @@
       }
     },
     "yukina-keihanshin": {
-      "source_fingerprint": "sha256:6bb79de2f973ec7be670d2a4c478dc8d2d3e7622b16b469df1d4ef8925e0d6a2",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:14760f0a97964aff8f22a3dc84b7807f4125f2f55ea64c521b9e5d40fccdf22e",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 10189689,
-        "points_count": 38882,
-        "population_count": 103992,
+        "residents_total": 10201297,
+        "points_count": 41088,
+        "population_count": 151024,
         "initial_view_state": {
-          "latitude": 34.72173,
-          "longitude": 135.500399,
-          "zoom": 12,
+          "latitude": 34.722056,
+          "longitude": 135.500338,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3656,16 +3656,16 @@
       }
     },
     "yukina-kitakyushu-shimonoseki": {
-      "source_fingerprint": "sha256:5cf092d2a3a2008787301e26545149849974319a689bf12c7644f1648c620596",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:27b1099e094cb6a6fe150e3818f3fa6fb533555f28377935f0c261d4c7d6e718",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1126872,
-        "points_count": 11267,
-        "population_count": 23340,
+        "residents_total": 1128866,
+        "points_count": 12715,
+        "population_count": 30868,
         "initial_view_state": {
-          "latitude": 33.832126,
-          "longitude": 130.828569,
-          "zoom": 12,
+          "latitude": 33.832279,
+          "longitude": 130.829336,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3674,16 +3674,16 @@
       }
     },
     "yukina-kobe-akashi": {
-      "source_fingerprint": "sha256:26ba1deaa0f97b9d3a3ddfc14e5bf3b9ec7893b11cc2e6df26cb6832ab396c55",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:771a9a337ca2c25745049d425c2923c8c17cb836389238bc4953df89a57e9672",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 2284554,
-        "points_count": 19796,
-        "population_count": 38609,
+        "residents_total": 2287760,
+        "points_count": 20725,
+        "population_count": 49898,
         "initial_view_state": {
-          "latitude": 34.760455,
-          "longitude": 134.954662,
-          "zoom": 12,
+          "latitude": 34.761104,
+          "longitude": 134.95381,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3692,16 +3692,16 @@
       }
     },
     "yukina-kochi": {
-      "source_fingerprint": "sha256:057303a4b80d1e1714329feb59314b5d94e0c346e4817b15263799677be2ecb5",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:03c511ff38aa031ddff1d9a164e615bd86c168888d634e0c2e5e69b566bd23b6",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 352815,
-        "points_count": 6376,
-        "population_count": 12175,
+        "residents_total": 353708,
+        "points_count": 6639,
+        "population_count": 15195,
         "initial_view_state": {
-          "latitude": 33.549124,
-          "longitude": 133.543882,
-          "zoom": 12,
+          "latitude": 33.54906,
+          "longitude": 133.543788,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3710,16 +3710,16 @@
       }
     },
     "yukina-kumamoto": {
-      "source_fingerprint": "sha256:963f2963ca6773d4fcf1f9288acbf1bd0bd576a7fab70c0b8d59c79f69557143",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:6c71855524bb9609cc12ce6ae57715d994494c038a859ff14788855d7d80fd3a",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 935764,
-        "points_count": 11895,
-        "population_count": 22074,
+        "residents_total": 936540,
+        "points_count": 12964,
+        "population_count": 29444,
         "initial_view_state": {
-          "latitude": 32.790267,
-          "longitude": 130.727567,
-          "zoom": 12,
+          "latitude": 32.790181,
+          "longitude": 130.727891,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3728,16 +3728,16 @@
       }
     },
     "yukina-kyoto": {
-      "source_fingerprint": "sha256:c3f6afc121241340b3cc93ef33aab7141ebbec827f5d6f218511c32dc6f229f4",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:10243d59d81a4c87384392e8fab7958a673ee20c1f0387b037a2b059b9b8827b",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 2160474,
-        "points_count": 15429,
-        "population_count": 33538,
+        "residents_total": 2162459,
+        "points_count": 15697,
+        "population_count": 43766,
         "initial_view_state": {
-          "latitude": 34.986045,
-          "longitude": 135.815675,
-          "zoom": 12,
+          "latitude": 34.986063,
+          "longitude": 135.815922,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3890,16 +3890,16 @@
       }
     },
     "yukina-matsuyama": {
-      "source_fingerprint": "sha256:1003faa56977ebf07345a7fa6107e6542711d95b5c49a5a9c9f517bbba112757",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:adcb0b36749253c16875d0ea517d39a92bda7f898c332b41148713bfd73bed4f",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 709340,
-        "points_count": 10457,
-        "population_count": 21052,
+        "residents_total": 709738,
+        "points_count": 9201,
+        "population_count": 20658,
         "initial_view_state": {
-          "latitude": 33.875805,
-          "longitude": 132.930443,
-          "zoom": 12,
+          "latitude": 33.875627,
+          "longitude": 132.929756,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3908,16 +3908,16 @@
       }
     },
     "yukina-morioka": {
-      "source_fingerprint": "sha256:cab9530e6ad9588e62c5f72b11de03f457323de2e3323dc3d77e8a7c4fdcc5fd",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:7110c919fb8d2bd874786726d8bbfbaa4ad0985e0b7952b114f42a1dc2aac709",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 578328,
-        "points_count": 15979,
-        "population_count": 25126,
+        "residents_total": 579655,
+        "points_count": 16445,
+        "population_count": 30327,
         "initial_view_state": {
-          "latitude": 39.465731,
-          "longitude": 141.142097,
-          "zoom": 12,
+          "latitude": 39.465345,
+          "longitude": 141.142524,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3926,16 +3926,16 @@
       }
     },
     "yukina-nagasaki": {
-      "source_fingerprint": "sha256:e3808a05466e6a0066f12dd320fff57bcb3b77c8709bdb776c0b7b57016b802b",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:77e3c42ef3093b955bd637c8891fe7346c4f9a994ab5924e0620fcd62db479c8",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 556385,
-        "points_count": 6944,
-        "population_count": 13108,
+        "residents_total": 557246,
+        "points_count": 7499,
+        "population_count": 16510,
         "initial_view_state": {
-          "latitude": 32.809295,
-          "longitude": 129.957641,
-          "zoom": 12,
+          "latitude": 32.808879,
+          "longitude": 129.958182,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3944,16 +3944,16 @@
       }
     },
     "yukina-nagoya": {
-      "source_fingerprint": "sha256:40ab6ec18f61868b2c505773516239df22cfbe7bc71571a341395ee9a88d22aa",
-      "last_checked_at": "2026-07-31T06:08:44.717Z",
+      "source_fingerprint": "sha256:ba88c27a7a7b3d21057089bc9b45598758a70f602bdffa21bba3bd392e820e79",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 6996523,
-        "points_count": 51076,
-        "population_count": 96710,
+        "residents_total": 6998121,
+        "points_count": 53735,
+        "population_count": 128224,
         "initial_view_state": {
-          "latitude": 35.117465,
-          "longitude": 136.927773,
-          "zoom": 12,
+          "latitude": 35.117444,
+          "longitude": 136.927772,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3962,16 +3962,16 @@
       }
     },
     "yukina-nakadoori": {
-      "source_fingerprint": "sha256:88e40d92758773b34146a3d884f3aa18bd308c264ca4fd4c4861bf721a6c7677",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:9741e9722fa66131fc0eeb44764a67a38742c14cd1c1719e02e50f4253f1424b",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 684787,
-        "points_count": 12344,
-        "population_count": 19648,
+        "residents_total": 685331,
+        "points_count": 13070,
+        "population_count": 24742,
         "initial_view_state": {
-          "latitude": 37.494545,
-          "longitude": 140.411897,
-          "zoom": 12,
+          "latitude": 37.494577,
+          "longitude": 140.411866,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3980,16 +3980,16 @@
       }
     },
     "yukina-nakaumi": {
-      "source_fingerprint": "sha256:ae8f060ab707f3532719db331657f24e3c8886e173b8daade1148d0b23f00514",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:67217c27741737800d70f5e3f351f4062a11b38746a87c6a5b2caab99757c8b8",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 484046,
-        "points_count": 9786,
-        "population_count": 17700,
+        "residents_total": 484395,
+        "points_count": 10256,
+        "population_count": 22130,
         "initial_view_state": {
-          "latitude": 35.415364,
-          "longitude": 133.069137,
-          "zoom": 12,
+          "latitude": 35.415667,
+          "longitude": 133.067514,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -3998,16 +3998,16 @@
       }
     },
     "yukina-nemuro": {
-      "source_fingerprint": "sha256:b79f6a58eebef78cb4cfbd6031da40cb1615b63f2bc6ee33432bc3c3a7b5c4d0",
-      "last_checked_at": "2026-06-28T02:22:20.541Z",
+      "source_fingerprint": "sha256:aaea9fe7712301791d3190288f158e9f1605ba55cb33f0ebf75239247e97fcde",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 44730,
-        "points_count": 1757,
-        "population_count": 3748,
+        "residents_total": 47862,
+        "points_count": 2339,
+        "population_count": 4642,
         "initial_view_state": {
-          "latitude": 43.491271,
-          "longitude": 145.205221,
-          "zoom": 12,
+          "latitude": 43.489121,
+          "longitude": 145.205321,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4016,16 +4016,16 @@
       }
     },
     "yukina-niigata": {
-      "source_fingerprint": "sha256:2b48c32d47c0e3e2be9a65584e21a5f1d6597bd2f546a7824862b25e1ca5585b",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:ebafec11154262626b4e1360cdce7cfe5f903c60ee5ee1314dc060f56d04a5c1",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1073658,
-        "points_count": 14946,
-        "population_count": 26491,
+        "residents_total": 1077385,
+        "points_count": 16113,
+        "population_count": 33596,
         "initial_view_state": {
-          "latitude": 37.769784,
-          "longitude": 139.045909,
-          "zoom": 12,
+          "latitude": 37.769686,
+          "longitude": 139.045738,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4034,16 +4034,16 @@
       }
     },
     "yukina-northern-kyushu": {
-      "source_fingerprint": "sha256:35c6a3bca4812cbd51f98eb78c195ba15893eeb7c2067f3d56d4271da8494b10",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:bfec961a4302bb6ade64e3f7863d259dc4553168e5a970eec528cdc32889eb3c",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 3784807,
-        "points_count": 30844,
-        "population_count": 62022,
+        "residents_total": 3791749,
+        "points_count": 32900,
+        "population_count": 84405,
         "initial_view_state": {
-          "latitude": 33.55174,
-          "longitude": 130.506147,
-          "zoom": 12,
+          "latitude": 33.551442,
+          "longitude": 130.50591,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4052,16 +4052,16 @@
       }
     },
     "yukina-okayama": {
-      "source_fingerprint": "sha256:42c746756d38471b2f4f7cb020d21c893b1df7352db5b8e895aaaf2c17029651",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:15e5848d34123c2b34d8e51b0386c2969c3f7b740ec34ded7621e2c07a422eb7",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 985629,
-        "points_count": 11202,
-        "population_count": 21953,
+        "residents_total": 986836,
+        "points_count": 12478,
+        "population_count": 28442,
         "initial_view_state": {
-          "latitude": 34.632731,
-          "longitude": 133.866181,
-          "zoom": 12,
+          "latitude": 34.632577,
+          "longitude": 133.865167,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4070,16 +4070,16 @@
       }
     },
     "yukina-okinawa": {
-      "source_fingerprint": "sha256:f7317ad7a84c7fc62bd8f016a82325e37f3af710873d2f78271072679c221cf2",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:e79271ce0456c6aa1226fe5a5cdb6d3675706c2bc3e710c2098ef2e093b9fb4a",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 875772,
-        "points_count": 5023,
-        "population_count": 14506,
+        "residents_total": 876167,
+        "points_count": 5744,
+        "population_count": 20698,
         "initial_view_state": {
-          "latitude": 26.283629,
-          "longitude": 127.76327,
-          "zoom": 12,
+          "latitude": 26.283058,
+          "longitude": 127.762859,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4088,16 +4088,16 @@
       }
     },
     "yukina-osaka": {
-      "source_fingerprint": "sha256:087d8ee888b55da612ed52ab0ec1e087b16e7149e53c44e2644e592f8c8604d0",
-      "last_checked_at": "2026-07-20T17:14:20.383Z",
+      "source_fingerprint": "sha256:4d97f3f527be24839d269a4707b1dc480e336dbbf0917d392eabdb1493e956ae",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 6539892,
-        "points_count": 18608,
-        "population_count": 59693,
+        "residents_total": 6548563,
+        "points_count": 19902,
+        "population_count": 84565,
         "initial_view_state": {
-          "latitude": 34.684532,
-          "longitude": 135.506577,
-          "zoom": 12,
+          "latitude": 34.684335,
+          "longitude": 135.506559,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4466,16 +4466,16 @@
       }
     },
     "yukina-sapporo-chitose": {
-      "source_fingerprint": "sha256:0fcce4fea76054f31bb553d2e95d0b84d8b1023db2409c9476e4befc3166084f",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:83d3a1bfab0dffafbabbac43df546d6a9670d190473f4c3689f686b6d97c448a",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1818220,
-        "points_count": 14536,
-        "population_count": 29253,
+        "residents_total": 1821360,
+        "points_count": 14966,
+        "population_count": 38051,
         "initial_view_state": {
-          "latitude": 43.034417,
-          "longitude": 141.40708,
-          "zoom": 12,
+          "latitude": 43.033999,
+          "longitude": 141.407561,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4484,16 +4484,16 @@
       }
     },
     "yukina-sendai": {
-      "source_fingerprint": "sha256:ee37e4f9c50a3e6d9f5e59d302ed73ae6b104e3c6db1a5ea88754965201fdefe",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:6b67495187bbc78360af33fe6f9376c7b5a41b83901affb571997370cd47eeae",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1129642,
-        "points_count": 8128,
-        "population_count": 17331,
+        "residents_total": 1130636,
+        "points_count": 8605,
+        "population_count": 23038,
         "initial_view_state": {
-          "latitude": 38.244522,
-          "longitude": 140.877909,
-          "zoom": 12,
+          "latitude": 38.244277,
+          "longitude": 140.877455,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4502,16 +4502,16 @@
       }
     },
     "yukina-shizuoka-hamamatsu": {
-      "source_fingerprint": "sha256:ae6db7c652a20e8abf66e0f2f9e285cd458d175502505547ec8b563db84c6292",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:c30abbaaee861ea9bac7cbb60fa5d8425bf6c1d140474e6df1a5c1f83bac00ed",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1575575,
-        "points_count": 13499,
-        "population_count": 26320,
+        "residents_total": 1577894,
+        "points_count": 15003,
+        "population_count": 34377,
         "initial_view_state": {
-          "latitude": 34.832936,
-          "longitude": 138.063872,
-          "zoom": 12,
+          "latitude": 34.832726,
+          "longitude": 138.063073,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4520,16 +4520,16 @@
       }
     },
     "yukina-takamatsu": {
-      "source_fingerprint": "sha256:a673bab2632ae0869ba9a8660035a3b1fbfb63543a7175ee7d0e8e206a80a483",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:63e81dddb3e7ba79894f3123e979b526c7ec23b77e4ba5aab793ea27c13ac858",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 622825,
-        "points_count": 8090,
-        "population_count": 15011,
+        "residents_total": 624171,
+        "points_count": 9207,
+        "population_count": 19567,
         "initial_view_state": {
-          "latitude": 34.276946,
-          "longitude": 133.962159,
-          "zoom": 12,
+          "latitude": 34.276977,
+          "longitude": 133.962518,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4538,16 +4538,16 @@
       }
     },
     "yukina-tottori": {
-      "source_fingerprint": "sha256:4875b08187234693417b7c917ec8ef521859b9a40e9c01e2061378cb7781ab64",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:c6a07e75fdc1a813fe1af07ae592a26626154e191477818d738c4e71b782f866",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 226936,
-        "points_count": 5335,
-        "population_count": 9057,
+        "residents_total": 227423,
+        "points_count": 5496,
+        "population_count": 11093,
         "initial_view_state": {
-          "latitude": 35.479767,
-          "longitude": 134.126907,
-          "zoom": 12,
+          "latitude": 35.480103,
+          "longitude": 134.125467,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4556,16 +4556,16 @@
       }
     },
     "yukina-toyama": {
-      "source_fingerprint": "sha256:90205325fbe060817c2ea2c3c8a9df5169b00ad9695c3ba33ada7a7884801a8b",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:31599df6571badac77fda32b3516023930924ee3d2d2752f5d55ea1ffb3f3700",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 706445,
-        "points_count": 11018,
-        "population_count": 18686,
+        "residents_total": 707097,
+        "points_count": 12127,
+        "population_count": 23129,
         "initial_view_state": {
-          "latitude": 36.715246,
-          "longitude": 137.161075,
-          "zoom": 12,
+          "latitude": 36.714813,
+          "longitude": 137.16118,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4574,16 +4574,16 @@
       }
     },
     "yukina-tsugaru": {
-      "source_fingerprint": "sha256:85a948947622f9d16b37783b03eb677b11a2cff099b599b52bc5bf7294201dfd",
-      "last_checked_at": "2026-07-26T18:03:27.415Z",
+      "source_fingerprint": "sha256:5c865d32d5374c8f8eff6be7b7990f98dfc6a79727a18c01deafb4c50642f99b",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 425310,
-        "points_count": 8906,
-        "population_count": 15850,
+        "residents_total": 426081,
+        "points_count": 9246,
+        "population_count": 19237,
         "initial_view_state": {
-          "latitude": 40.735049,
-          "longitude": 140.582373,
-          "zoom": 12,
+          "latitude": 40.735013,
+          "longitude": 140.583083,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4592,16 +4592,16 @@
       }
     },
     "yukina-tw-chiayi": {
-      "source_fingerprint": "sha256:a11f1a8df0c63afd744428b153f07219813695df88e6053287ff26378f507b54",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:2ffad3d780b1e03c9e4c295f7e6b8a54a5d94a85efc33a23e7fbe920000257fa",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 525369,
-        "points_count": 5557,
-        "population_count": 10489,
+        "residents_total": 814213,
+        "points_count": 9957,
+        "population_count": 22106,
         "initial_view_state": {
-          "latitude": 23.459222,
-          "longitude": 120.386583,
-          "zoom": 12,
+          "latitude": 23.558996,
+          "longitude": 120.416421,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4610,16 +4610,16 @@
       }
     },
     "yukina-tw-hsinchu": {
-      "source_fingerprint": "sha256:c2135a85ca6571765d24e6c690722589d2da24c80929f1f5df10b0b8f2938670",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:5bf3cd8a15f28a36f0ab56dc464989ed059e724c9790119480282972f3e1cf70",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 868933,
-        "points_count": 5660,
-        "population_count": 14601,
+        "residents_total": 872439,
+        "points_count": 5654,
+        "population_count": 18807,
         "initial_view_state": {
-          "latitude": 24.75498,
-          "longitude": 120.967524,
-          "zoom": 12,
+          "latitude": 24.761184,
+          "longitude": 120.97129,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4628,16 +4628,16 @@
       }
     },
     "yukina-tw-kaohsiung": {
-      "source_fingerprint": "sha256:ef8f0a68a297a9055e6fa003abac927c2b1830d146a64dd300419a5d5d989eb6",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:33cbd2d41ac0f8a5983ccf47445707a8311f02c8c1d42899d78294f2f7d31784",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1836028,
-        "points_count": 9041,
-        "population_count": 22912,
+        "residents_total": 1830423,
+        "points_count": 9576,
+        "population_count": 32624,
         "initial_view_state": {
-          "latitude": 22.651068,
-          "longitude": 120.374289,
-          "zoom": 12,
+          "latitude": 22.642772,
+          "longitude": 120.379219,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4646,16 +4646,16 @@
       }
     },
     "yukina-tw-taichung": {
-      "source_fingerprint": "sha256:86f2f6847bfee6ddf213086c095a8c99a2d73f711d1e4eeb11e68248dbeb240b",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:9f27e5b9255df09b7941d71f595cee67e1fb1d2ee868f136ff5b11b1daa5f054",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 2601025,
-        "points_count": 15046,
-        "population_count": 34551,
+        "residents_total": 2605157,
+        "points_count": 15416,
+        "population_count": 48398,
         "initial_view_state": {
-          "latitude": 24.120321,
-          "longitude": 120.632984,
-          "zoom": 12,
+          "latitude": 24.121444,
+          "longitude": 120.639875,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4664,16 +4664,16 @@
       }
     },
     "yukina-tw-tainan": {
-      "source_fingerprint": "sha256:52df26f3142fc299f9a0e01199e2477066034e7c2a4da184bd4247df9530ef84",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:107d531f2f4fea1c05653d0f4a69c4fd52c59470394722440dddc0db73c79f74",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 1071375,
-        "points_count": 6031,
-        "population_count": 14026,
+        "residents_total": 1050361,
+        "points_count": 5874,
+        "population_count": 18291,
         "initial_view_state": {
-          "latitude": 23.028348,
-          "longitude": 120.236444,
-          "zoom": 12,
+          "latitude": 23.024986,
+          "longitude": 120.237314,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4682,16 +4682,16 @@
       }
     },
     "yukina-tw-taipei": {
-      "source_fingerprint": "sha256:34cb4f57b43fbf503a264c4fd0865fac82d76319796d09f3092ca703f6da84d3",
-      "last_checked_at": "2026-07-15T05:48:07.738Z",
+      "source_fingerprint": "sha256:8fbed74aff0657035adfaae5fe1cb67a7ab16cefc9303a9064287870e3703f72",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 6018123,
-        "points_count": 12641,
-        "population_count": 51045,
+        "residents_total": 6079546,
+        "points_count": 12074,
+        "population_count": 69921,
         "initial_view_state": {
-          "latitude": 25.027751,
-          "longitude": 121.452462,
-          "zoom": 12,
+          "latitude": 25.027485,
+          "longitude": 121.45176,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4826,16 +4826,16 @@
       }
     },
     "yukina-wakkanai": {
-      "source_fingerprint": "sha256:6df8d6a74081ac0545535d6b0721b2a4d56eb1a9e61ea11846e32f2397b0ee9e",
-      "last_checked_at": "2026-06-28T10:33:58.033Z",
+      "source_fingerprint": "sha256:317519c6d7f899b5002cb122316d9e8109404e4c1c0a57b869c82ffb7886fd5b",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 40624,
-        "points_count": 1146,
-        "population_count": 2916,
+        "residents_total": 40712,
+        "points_count": 1436,
+        "population_count": 3236,
         "initial_view_state": {
-          "latitude": 45.255403,
-          "longitude": 141.817776,
-          "zoom": 12,
+          "latitude": 45.25565,
+          "longitude": 141.817585,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -4844,16 +4844,16 @@
       }
     },
     "yukina-yamagata": {
-      "source_fingerprint": "sha256:389fd698635eb7b4cdb62c796e25e9b3161c27a4af9e82b5ca15a205917a99a4",
-      "last_checked_at": "2026-07-20T16:20:53.306Z",
+      "source_fingerprint": "sha256:75328cb1acb64e4ded40f9f261f610a477812fcd86f67106a702ca29bef9faab",
+      "last_checked_at": "2026-08-13T13:50:30.881Z",
       "stats": {
-        "residents_total": 495385,
-        "points_count": 9973,
-        "population_count": 17930,
+        "residents_total": 495795,
+        "points_count": 10468,
+        "population_count": 22153,
         "initial_view_state": {
-          "latitude": 38.233094,
-          "longitude": 140.26566,
-          "zoom": 12,
+          "latitude": 38.232867,
+          "longitude": 140.265745,
+          "zoom": 10,
           "bearing": 0
         }
       },
