@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T12:01:19.730Z",
+  "generated_at": "2026-08-22T16:43:16.028Z",
   "listings": {
     "advanced-analytics": {
       "has_complete_version": true,
@@ -49,7 +49,7 @@
             "tag": "target-1.1.0"
           },
           "fingerprint": "rules:v6:github:stefanorigano/advanced_analytics:target-1.1.0:no-zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-08-20T12:01:19.730Z",
+          "checked_at": "2026-08-22T16:43:16.028Z",
           "released_at": "2026-03-02T23:15:42.000Z"
         },
         "v0.9.1": {
@@ -1066,9 +1066,10 @@
     },
     "basedgoat-trains": {
       "has_complete_version": true,
-      "latest_semver_version": "v0.6.1",
+      "latest_semver_version": "v0.6.2",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v0.6.2",
         "v0.6.1",
         "v0.6.0",
         "v0.5.0",
@@ -1079,7 +1080,7 @@
         "v0.1.0"
       ],
       "incomplete_versions": [],
-      "last_updated": 1787025737,
+      "last_updated": 1787339716,
       "versions": {
         "v0.1.0": {
           "is_complete": true,
@@ -1328,6 +1329,37 @@
           "fingerprint": "rules:v6:github:arniber21/dantrains-abridged:v0.6.1:BasedGoatTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
           "checked_at": "2026-08-18T08:01:21.274Z",
           "released_at": "2026-08-18T04:02:17.000Z"
+        },
+        "v0.6.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true,
+            "security_scan_passed": true,
+            "manifest_version_matches_tag": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json",
+            "security_scan_passed": "passed",
+            "manifest_version_matches_tag": "manifest.json"
+          },
+          "release_size": 0.01,
+          "game_version": ">=1.4.12",
+          "dependencies": {
+            "scrollable-dropdowns": ">=v1.2.0"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "arniber21/dantrains-abridged",
+            "tag": "v0.6.2",
+            "asset_name": "BasedGoatTrains-Abridged.zip",
+            "download_url": "https://github.com/arniber21/dantrains-abridged/releases/download/v0.6.2/BasedGoatTrains-Abridged.zip"
+          },
+          "fingerprint": "rules:v6:github:arniber21/dantrains-abridged:v0.6.2:BasedGoatTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
+          "checked_at": "2026-08-22T16:43:16.028Z",
+          "released_at": "2026-08-21T19:15:16.000Z"
         }
       }
     },
@@ -2327,14 +2359,16 @@
     },
     "dantrains-abridged": {
       "has_complete_version": true,
-      "latest_semver_version": "v1.2.0",
+      "latest_semver_version": "v1.3.1",
       "latest_semver_complete": true,
       "complete_versions": [
+        "v1.3.1",
+        "v1.3.0",
         "v1.2.0",
         "v1.1.1"
       ],
       "incomplete_versions": [],
-      "last_updated": 1784592828,
+      "last_updated": 1787411509,
       "versions": {
         "v1.0": {
           "is_complete": false,
@@ -2349,7 +2383,7 @@
             "tag": "v1.0"
           },
           "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.0:dantrains-abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-08-20T12:01:19.730Z",
+          "checked_at": "2026-08-22T16:43:16.028Z",
           "released_at": "2026-07-18T05:05:08.000Z"
         },
         "v1.1": {
@@ -2365,7 +2399,7 @@
             "tag": "v1.1"
           },
           "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.1:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-08-20T12:01:19.730Z",
+          "checked_at": "2026-08-22T16:43:16.028Z",
           "released_at": "2026-07-19T04:42:34.000Z"
         },
         "v1.1.1": {
@@ -2426,6 +2460,68 @@
           "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.2.0:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
           "checked_at": "2026-07-21T03:50:13.089Z",
           "released_at": "2026-07-21T00:13:48.000Z"
+        },
+        "v1.3.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true,
+            "security_scan_passed": true,
+            "manifest_version_matches_tag": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json",
+            "security_scan_passed": "passed",
+            "manifest_version_matches_tag": "manifest.json"
+          },
+          "release_size": 0.01,
+          "game_version": ">=1.6.0",
+          "dependencies": {
+            "scrollable-dropdowns": ">=v1.2.0"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/dantrains-abridged",
+            "tag": "v1.3.0",
+            "asset_name": "danTrains-Abridged.zip",
+            "download_url": "https://github.com/DanielD1909/dantrains-abridged/releases/download/v1.3.0/danTrains-Abridged.zip"
+          },
+          "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.3.0:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
+          "checked_at": "2026-08-22T16:43:16.028Z",
+          "released_at": "2026-08-21T20:54:45.000Z"
+        },
+        "v1.3.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true,
+            "security_scan_passed": true,
+            "manifest_version_matches_tag": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json",
+            "security_scan_passed": "passed",
+            "manifest_version_matches_tag": "manifest.json"
+          },
+          "release_size": 0.01,
+          "game_version": ">=1.6.0",
+          "dependencies": {
+            "scrollable-dropdowns": ">=v1.2.0"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/dantrains-abridged",
+            "tag": "v1.3.1",
+            "asset_name": "danTrains-Abridged.zip",
+            "download_url": "https://github.com/DanielD1909/dantrains-abridged/releases/download/v1.3.1/danTrains-Abridged.zip"
+          },
+          "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.3.1:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
+          "checked_at": "2026-08-22T16:43:16.028Z",
+          "released_at": "2026-08-22T15:11:49.000Z"
         }
       }
     },
@@ -7234,7 +7330,7 @@
             "tag": "v1.0"
           },
           "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-08-20T12:01:19.730Z",
+          "checked_at": "2026-08-22T16:43:16.028Z",
           "released_at": "2026-03-01T14:52:46.000Z"
         },
         "v1.1": {
@@ -7250,7 +7346,7 @@
             "tag": "v1.1"
           },
           "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-08-20T12:01:19.730Z",
+          "checked_at": "2026-08-22T16:43:16.028Z",
           "released_at": "2026-03-08T08:01:18.000Z"
         }
       }
