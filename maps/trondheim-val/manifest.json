@@ -94,9 +94,9 @@
       "expectedPointSpacingKm": 0.8214601316968948,
       "normalizedRadius": 0.5162453965285065,
       "activityPerPoint": 2317.3217757375623,
-      "playableAreaKm2": 84,
-      "playableAreaPerPointKm2": 0.6829268292682927,
-      "playableCatchmentRadiusKm": 0.46624281366713555,
+      "playableAreaKm2": 100,
+      "playableAreaPerPointKm2": 0.8130081300813008,
+      "playableCatchmentRadiusKm": 0.5087126156806762,
       "localityScore": 0.5884966959186896,
       "deaggregationScore": 1,
       "score": 0.7671353830444073

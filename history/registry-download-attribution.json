@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-04T12:02:59.475Z",
+  "updated_at": "2026-09-05T18:28:05.834Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -9174,10 +9174,10 @@
       }
     },
     "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip#RA_kwDORfHNf84Xd0qb": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -9460,10 +9460,10 @@
       }
     },
     "bean1322/akron-oh-map@v1.0.0/akron.zip#RA_kwDOR8HDms4XYy9s": {
-      "count": 6,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 7,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -9475,10 +9475,10 @@
       }
     },
     "bean1322/toledo-oh-map@1.0.0/toledo.zip#RA_kwDOSCx1VM4Xohpr": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -9780,9 +9780,10 @@
       }
     },
     "crumpetime/sb-maps-las@1.1.0/las.zip#RA_kwDORsIo9s4WhgK8": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -9796,9 +9797,10 @@
       }
     },
     "crumpetime/sb-maps-msn@3.0.0/msn.zip#RA_kwDORmlLic4WQv1n": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -9810,10 +9812,10 @@
       }
     },
     "crumpetime/sb-maps-msy@1.0.0/msy.zip#RA_kwDOSr5sTc4a0Ovs": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -9872,10 +9874,10 @@
       }
     },
     "crumpetime/sb-maps-rdu@1.0.0/rdu.zip#RA_kwDOSE1j2s4XvDfO": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -9897,9 +9899,10 @@
       }
     },
     "crumpetime/sb-maps-xna@1.0.0/xna.zip#RA_kwDORj9xpc4WIl56": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -10045,6 +10048,13 @@
     "danield1909/dantrains-abridged@v1.3.1/dantrains-abridged.zip#RA_kwDOTcLPLM4fTTRq": {
       "count": 1,
       "updated_at": "2026-08-22T16:03:32.429Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):mod:full": 1
+      }
+    },
+    "danield1909/dantrains-abridged@v1.4.0/dantrains-abridged.zip#RA_kwDOTcLPLM4gdtt2": {
+      "count": 1,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "workflow:Regenerate Registry Analytics (Full):mod:full": 1
       }
@@ -11440,6 +11450,20 @@
         "workflow:Regenerate Registry Analytics (Full):mod:full": 1
       }
     },
+    "kaicardenas0618/japanese-trains@v3.0.0/japanese-trains-v3.0.0.zip#RA_kwDOSzb2_M4gga7S": {
+      "count": 1,
+      "updated_at": "2026-09-05T18:28:05.834Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):mod:full": 1
+      }
+    },
+    "kaicardenas0618/japanese-trains@v3.0.1/japanese-trains-v3.0.1.zip#RA_kwDOSzb2_M4gg8ct": {
+      "count": 1,
+      "updated_at": "2026-09-05T18:28:05.834Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):mod:full": 1
+      }
+    },
     "kaicardenas0618/lrt-trains@v1.0.0/lrt-trains-v1.0.0.zip#RA_kwDOSuk2k84Z-7o9": {
       "count": 4,
       "updated_at": "2026-07-08T07:27:00.439Z",
@@ -11490,11 +11514,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/aqp.zip": {
-      "count": 110,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 111,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 109,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/aqp.zip#RA_kwDOStO8Y84Z-jjD": {
@@ -11505,11 +11529,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/chm.zip": {
-      "count": 110,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 111,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 109,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/chm.zip#RA_kwDOStO8Y84Z-jje": {
@@ -11520,11 +11544,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/cix.zip": {
-      "count": 109,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 110,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 108,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/cix.zip#RA_kwDOStO8Y84Z-jj6": {
@@ -11535,11 +11559,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/cuz.zip": {
-      "count": 110,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 111,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 109,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/cuz.zip#RA_kwDOStO8Y84Z-jkd": {
@@ -11550,11 +11574,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/iqt.zip": {
-      "count": 110,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 111,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 109,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/iqt.zip#RA_kwDOStO8Y84Z-jlF": {
@@ -11565,11 +11589,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/jau.zip": {
-      "count": 111,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 112,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 110,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/jau.zip#RA_kwDOStO8Y84Z-jlo": {
@@ -11580,11 +11604,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/lim.zip": {
-      "count": 72,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 73,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 71,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/lim.zip#RA_kwDOStO8Y84Z-jmM": {
@@ -11595,11 +11619,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/piu.zip": {
-      "count": 108,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 109,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 107,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/piu.zip#RA_kwDOStO8Y84Z-jm9": {
@@ -11610,11 +11634,11 @@
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/tru.zip": {
-      "count": 111,
-      "updated_at": "2026-08-31T04:45:15.218Z",
+      "count": 112,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 110,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "kaicardenas0618/subway-builder-peru@1.1.0/tru.zip#RA_kwDOStO8Y84Z-jn2": {
@@ -12979,9 +13003,10 @@
       }
     },
     "kronifer/sb-waterloo-map@1.1.0/ykf.zip#RA_kwDORaAAjM4XMCZH": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -14177,12 +14202,12 @@
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": {
-      "count": 168,
-      "updated_at": "2026-08-31T04:45:18.399Z",
+      "count": 169,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 162,
         "manual:incident-2026-05-23-hourly-spike": 5,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip#RA_kwDOR_o9GM4XfWvd": {
@@ -14193,12 +14218,12 @@
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": {
-      "count": 167,
-      "updated_at": "2026-08-31T04:45:18.399Z",
+      "count": 168,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "manual-correction/metronome-fetch-2026-07": 164,
         "manual:incident-2026-05-23-hourly-spike": 2,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip#RA_kwDOR_o9GM4XfFdh": {
@@ -14366,10 +14391,10 @@
       }
     },
     "phineapoo/willamette-valley-or@1.0.0/wmv.zip#RA_kwDOR-s6M84Xi7Kf": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15677,10 +15702,10 @@
       }
     },
     "pswbsf/anchorage-ak@1.0.0/anchorage.zip#RA_kwDOR5BtPM4XdCu4": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15700,10 +15725,10 @@
       }
     },
     "pswbsf/buffalo-ny@1.0.0/buffalo.zip#RA_kwDOSBgHr84XkjzX": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15723,10 +15748,10 @@
       }
     },
     "pswbsf/charleston-huntington-wv@1.0.0/cha.zip#RA_kwDOR5KXo84XdD_g": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15762,10 +15787,10 @@
       }
     },
     "pswbsf/charleston-sc@1.0.0/charleston.zip#RA_kwDOR9bKns4XdERU": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15785,10 +15810,10 @@
       }
     },
     "pswbsf/connecticut-usa@1.0.0/connecticut.zip#RA_kwDOSg9pxc4ZUHoK": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15825,9 +15850,10 @@
       }
     },
     "pswbsf/dayton-oh@1.1.0/dayton.zip#RA_kwDOR0-sGc4XCatW": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -15839,10 +15865,10 @@
       }
     },
     "pswbsf/piedmont-triad@1.0.0/piedmont.zip#RA_kwDORxyNh84XdC7H": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15900,10 +15926,10 @@
       }
     },
     "pswbsf/syracuse-ny@1.0.0/syracuse.zip#RA_kwDOSQKIts4YV_t3": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -15915,10 +15941,10 @@
       }
     },
     "pswbsf/wilmington-nc@1.0.0/wilmington.zip#RA_kwDOR0Otdc4XdDFh": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 2,
         "workflow:Regenerate Registry Analytics (Full):map:full": 4
       }
     },
@@ -18460,9 +18486,10 @@
       }
     },
     "soccerjonj/albany@1.0.0/albany-railway.zip#RA_kwDORpkWtM4WZ9TV": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -18476,9 +18503,10 @@
       }
     },
     "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip#RA_kwDORYzIa84VovJs": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -18492,9 +18520,10 @@
       }
     },
     "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip#RA_kwDOR3WUY84XClAy": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -18508,9 +18537,10 @@
       }
     },
     "soccerjonj/louisville@1.0.0/louisville-railyard.zip#RA_kwDORXJcms4Vosxz": {
-      "count": 6,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 7,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 6
       }
     },
@@ -18524,9 +18554,10 @@
       }
     },
     "soccerjonj/nashville@2.0.0/nashville-railway.zip#RA_kwDORU1tlM4WMjGx": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -18540,9 +18571,10 @@
       }
     },
     "soccerjonj/providence@1.0.0/providence-railyard.zip#RA_kwDORVwscc4VoouM": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
@@ -18556,9 +18588,10 @@
       }
     },
     "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip#RA_kwDORVfrD84Votbl": {
-      "count": 6,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 7,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 6
       }
     },
@@ -19146,12 +19179,12 @@
       }
     },
     "valdotorium/railyard-maps-2@v0.1.1/waw.zip": {
-      "count": 34,
-      "updated_at": "2026-05-24T02:54:12.621Z",
+      "count": 35,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 26,
         "manual:incident-2026-05-23-hourly-spike": 4,
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 5
       }
     },
     "valdotorium/railyard-maps-2@v0.1.1/waw.zip#RA_kwDORnh5eM4WW7nh": {
@@ -19364,17 +19397,18 @@
       }
     },
     "willbarouch/subwaybuilder-sydney@1.2.0/syd.zip#RA_kwDORsrM_M4WlXon": {
-      "count": 5,
-      "updated_at": "2026-07-08T07:27:00.439Z",
+      "count": 6,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 5
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 336,
-      "updated_at": "2026-09-04T12:02:59.475Z",
+      "count": 337,
+      "updated_at": "2026-09-05T18:28:05.834Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 336
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 337
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -22930,6 +22964,9 @@
     "33870602159:generate-map-demand-stats:map-demand-stats": "2026-09-04T12:02:59.475Z",
     "33870602159:generate-maps:map:full": "2026-09-04T12:02:59.475Z",
     "33870602159:generate-mods:mod:full": "2026-09-04T12:02:59.475Z",
+    "33983656335:generate-map-demand-stats:map-demand-stats": "2026-09-05T18:28:05.834Z",
+    "33983656335:generate-maps:map:full": "2026-09-05T18:28:05.834Z",
+    "33983656335:generate-mods:mod:full": "2026-09-05T18:28:05.834Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -33713,6 +33750,54 @@
       "total": 4,
       "assets": {
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 4
+      }
+    },
+    "2026_09_05": {
+      "total": 43,
+      "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip#RA_kwDORfHNf84Xd0qb": 1,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip#RA_kwDOR8HDms4XYy9s": 1,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip#RA_kwDOSCx1VM4Xohpr": 1,
+        "crumpetime/sb-maps-las@1.1.0/las.zip#RA_kwDORsIo9s4WhgK8": 1,
+        "crumpetime/sb-maps-msn@3.0.0/msn.zip#RA_kwDORmlLic4WQv1n": 1,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip#RA_kwDOSr5sTc4a0Ovs": 1,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip#RA_kwDOSE1j2s4XvDfO": 1,
+        "crumpetime/sb-maps-xna@1.0.0/xna.zip#RA_kwDORj9xpc4WIl56": 1,
+        "danield1909/dantrains-abridged@v1.4.0/dantrains-abridged.zip#RA_kwDOTcLPLM4gdtt2": 1,
+        "kaicardenas0618/japanese-trains@v3.0.0/japanese-trains-v3.0.0.zip#RA_kwDOSzb2_M4gga7S": 1,
+        "kaicardenas0618/japanese-trains@v3.0.1/japanese-trains-v3.0.1.zip#RA_kwDOSzb2_M4gg8ct": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/aqp.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/chm.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/cix.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/cuz.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/iqt.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/jau.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/lim.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/piu.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/tru.zip": 1,
+        "kronifer/sb-waterloo-map@1.1.0/ykf.zip#RA_kwDORaAAjM4XMCZH": 1,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 1,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 1,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip#RA_kwDOR-s6M84Xi7Kf": 1,
+        "pswbsf/anchorage-ak@1.0.0/anchorage.zip#RA_kwDOR5BtPM4XdCu4": 1,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip#RA_kwDOSBgHr84XkjzX": 1,
+        "pswbsf/charleston-huntington-wv@1.0.0/cha.zip#RA_kwDOR5KXo84XdD_g": 1,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip#RA_kwDOR9bKns4XdERU": 1,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip#RA_kwDOSg9pxc4ZUHoK": 1,
+        "pswbsf/dayton-oh@1.1.0/dayton.zip#RA_kwDOR0-sGc4XCatW": 1,
+        "pswbsf/piedmont-triad@1.0.0/piedmont.zip#RA_kwDORxyNh84XdC7H": 1,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip#RA_kwDOSQKIts4YV_t3": 1,
+        "pswbsf/wilmington-nc@1.0.0/wilmington.zip#RA_kwDOR0Otdc4XdDFh": 1,
+        "soccerjonj/albany@1.0.0/albany-railway.zip#RA_kwDORpkWtM4WZ9TV": 1,
+        "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip#RA_kwDORYzIa84VovJs": 1,
+        "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip#RA_kwDOR3WUY84XClAy": 1,
+        "soccerjonj/louisville@1.0.0/louisville-railyard.zip#RA_kwDORXJcms4Vosxz": 1,
+        "soccerjonj/nashville@2.0.0/nashville-railway.zip#RA_kwDORU1tlM4WMjGx": 1,
+        "soccerjonj/providence@1.0.0/providence-railyard.zip#RA_kwDORVwscc4VoouM": 1,
+        "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip#RA_kwDORVfrD84Votbl": 1,
+        "valdotorium/railyard-maps-2@v0.1.1/waw.zip": 1,
+        "willbarouch/subwaybuilder-sydney@1.2.0/syd.zip#RA_kwDORsrM_M4WlXon": 1,
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     }
   },
@@ -54212,6 +54297,59 @@
     "2026-09-04T12:01:00.553Z": {
       "total": 1,
       "assets": {
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-05T18:20:42.624Z": {
+      "total": 3,
+      "assets": {
+        "danield1909/dantrains-abridged@v1.4.0/dantrains-abridged.zip#RA_kwDOTcLPLM4gdtt2": 1,
+        "kaicardenas0618/japanese-trains@v3.0.0/japanese-trains-v3.0.0.zip#RA_kwDOSzb2_M4gga7S": 1,
+        "kaicardenas0618/japanese-trains@v3.0.1/japanese-trains-v3.0.1.zip#RA_kwDOSzb2_M4gg8ct": 1
+      }
+    },
+    "2026-09-05T18:20:57.444Z": {
+      "total": 40,
+      "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip#RA_kwDORfHNf84Xd0qb": 1,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip#RA_kwDOR8HDms4XYy9s": 1,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip#RA_kwDOSCx1VM4Xohpr": 1,
+        "crumpetime/sb-maps-las@1.1.0/las.zip#RA_kwDORsIo9s4WhgK8": 1,
+        "crumpetime/sb-maps-msn@3.0.0/msn.zip#RA_kwDORmlLic4WQv1n": 1,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip#RA_kwDOSr5sTc4a0Ovs": 1,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip#RA_kwDOSE1j2s4XvDfO": 1,
+        "crumpetime/sb-maps-xna@1.0.0/xna.zip#RA_kwDORj9xpc4WIl56": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/aqp.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/chm.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/cix.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/cuz.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/iqt.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/jau.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/lim.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/piu.zip": 1,
+        "kaicardenas0618/subway-builder-peru@1.1.0/tru.zip": 1,
+        "kronifer/sb-waterloo-map@1.1.0/ykf.zip#RA_kwDORaAAjM4XMCZH": 1,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 1,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 1,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip#RA_kwDOR-s6M84Xi7Kf": 1,
+        "pswbsf/anchorage-ak@1.0.0/anchorage.zip#RA_kwDOR5BtPM4XdCu4": 1,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip#RA_kwDOSBgHr84XkjzX": 1,
+        "pswbsf/charleston-huntington-wv@1.0.0/cha.zip#RA_kwDOR5KXo84XdD_g": 1,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip#RA_kwDOR9bKns4XdERU": 1,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip#RA_kwDOSg9pxc4ZUHoK": 1,
+        "pswbsf/dayton-oh@1.1.0/dayton.zip#RA_kwDOR0-sGc4XCatW": 1,
+        "pswbsf/piedmont-triad@1.0.0/piedmont.zip#RA_kwDORxyNh84XdC7H": 1,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip#RA_kwDOSQKIts4YV_t3": 1,
+        "pswbsf/wilmington-nc@1.0.0/wilmington.zip#RA_kwDOR0Otdc4XdDFh": 1,
+        "soccerjonj/albany@1.0.0/albany-railway.zip#RA_kwDORpkWtM4WZ9TV": 1,
+        "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip#RA_kwDORYzIa84VovJs": 1,
+        "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip#RA_kwDOR3WUY84XClAy": 1,
+        "soccerjonj/louisville@1.0.0/louisville-railyard.zip#RA_kwDORXJcms4Vosxz": 1,
+        "soccerjonj/nashville@2.0.0/nashville-railway.zip#RA_kwDORU1tlM4WMjGx": 1,
+        "soccerjonj/providence@1.0.0/providence-railyard.zip#RA_kwDORVwscc4VoouM": 1,
+        "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip#RA_kwDORVfrD84Votbl": 1,
+        "valdotorium/railyard-maps-2@v0.1.1/waw.zip": 1,
+        "willbarouch/subwaybuilder-sydney@1.2.0/syd.zip#RA_kwDORsrM_M4WlXon": 1,
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     }
