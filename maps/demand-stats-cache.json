@@ -6374,16 +6374,16 @@
       }
     },
     "yukina-ua-dnipro": {
-      "source_fingerprint": "sha256:b0ba88dbe6d950aad5fee12ed20b409753c344d956ce20b699c0756fe4cb66b3",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:012febf021782c05fe6daa999b7495bc63e493b48d59891ea47f70c682e9faa1",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 826998,
-        "points_count": 13947,
-        "population_count": 22748,
+        "residents_total": 1007876,
+        "points_count": 17997,
+        "population_count": 32893,
         "initial_view_state": {
-          "latitude": 48.495452,
-          "longitude": 34.945388,
-          "zoom": 12,
+          "latitude": 48.505128,
+          "longitude": 35.012791,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6392,16 +6392,16 @@
       }
     },
     "yukina-ua-kharkiv": {
-      "source_fingerprint": "sha256:be1947b28af9b0946923348475019e9c2cb2d272fbfac69bbc62a2f9f34c09b8",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:e32940e41efcee57af35ff6953d9be68ac65ec013e04aa4d2e0689b6e64dd930",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 1111554,
-        "points_count": 16358,
-        "population_count": 28722,
+        "residents_total": 1259058,
+        "points_count": 18375,
+        "population_count": 37480,
         "initial_view_state": {
-          "latitude": 49.974212,
-          "longitude": 36.241388,
-          "zoom": 12,
+          "latitude": 49.939328,
+          "longitude": 36.229776,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6410,16 +6410,16 @@
       }
     },
     "yukina-ua-kryvyi-rih": {
-      "source_fingerprint": "sha256:7c474091ff255ed1c0f23c114224b2c45dda7c58b31e2e60a355206066e44975",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:16d9876ff6bd7850c223dd2822ec6f29ab195505e91fa9e7e5e53c31f9587dc8",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 386555,
-        "points_count": 11203,
-        "population_count": 17274,
+        "residents_total": 443495,
+        "points_count": 10301,
+        "population_count": 16943,
         "initial_view_state": {
-          "latitude": 47.969904,
-          "longitude": 33.41304,
-          "zoom": 12,
+          "latitude": 47.953671,
+          "longitude": 33.40965,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6428,16 +6428,16 @@
       }
     },
     "yukina-ua-kyiv": {
-      "source_fingerprint": "sha256:d94721fda9c020ced0c365042748929cd2bbd4fa00fd0063ea967ab0ed663a97",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:5c21955804e7576d5ce48512412a324ba10b4b40f25c24b78674136774b5fd51",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 2166171,
-        "points_count": 22774,
-        "population_count": 45822,
+        "residents_total": 2513143,
+        "points_count": 29373,
+        "population_count": 70347,
         "initial_view_state": {
-          "latitude": 50.438936,
-          "longitude": 30.500591,
-          "zoom": 12,
+          "latitude": 50.397557,
+          "longitude": 30.519476,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6446,16 +6446,16 @@
       }
     },
     "yukina-ua-lviv": {
-      "source_fingerprint": "sha256:be0b50402d8e0a9e862e8be01d09b8c0b88a756ce4e65bee672d9d3296f90e37",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:8b2ced7f2c76237ce6a0a3d9e3f951b55b41bb20f6d2594af86f4d40135f3548",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 764746,
-        "points_count": 17524,
-        "population_count": 29973,
+        "residents_total": 1164926,
+        "points_count": 22478,
+        "population_count": 39744,
         "initial_view_state": {
-          "latitude": 49.82882,
-          "longitude": 24.009783,
-          "zoom": 12,
+          "latitude": 49.78874,
+          "longitude": 23.982565,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6464,16 +6464,16 @@
       }
     },
     "yukina-ua-odesa": {
-      "source_fingerprint": "sha256:ba768b7d209e3a6611601b6c3e6f10d9ebde11789bb6c9451dc8d64816abbfb6",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:00f069efbb4af7d43e53ba70a7f469c07dad8b32b83c4cf2f042921ce4640634",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 859701,
-        "points_count": 12268,
-        "population_count": 21860,
+        "residents_total": 938521,
+        "points_count": 13134,
+        "population_count": 28712,
         "initial_view_state": {
-          "latitude": 46.464296,
-          "longitude": 30.658691,
-          "zoom": 12,
+          "latitude": 46.482973,
+          "longitude": 30.638166,
+          "zoom": 10,
           "bearing": 0
         }
       },
@@ -6482,16 +6482,16 @@
       }
     },
     "yukina-ua-zaporizhzhia": {
-      "source_fingerprint": "sha256:96e3832b057c148a3b089c3d769ac8b7a6b21c51f1d69679f61eef0dd0f8ab9d",
-      "last_checked_at": "2026-07-08T00:36:24.992Z",
+      "source_fingerprint": "sha256:e68617448a6b5d45d37d4c1478b78cbd3e66acbdc23e47659f7d50b345011ae9",
+      "last_checked_at": "2026-09-06T22:09:55.756Z",
       "stats": {
-        "residents_total": 460563,
-        "points_count": 9818,
-        "population_count": 17139,
+        "residents_total": 713557,
+        "points_count": 12824,
+        "population_count": 23705,
         "initial_view_state": {
-          "latitude": 47.82132,
-          "longitude": 35.165173,
-          "zoom": 12,
+          "latitude": 47.719969,
+          "longitude": 34.990536,
+          "zoom": 10,
           "bearing": 0
         }
       },
