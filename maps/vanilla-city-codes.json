@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
-  "synced_at": "2026-09-04T12:03:00.390Z",
+  "synced_at": "2026-09-14T05:20:18.187Z",
   "source_url": "https://ctiles.subwaybuilder.com/cities/latest-cities.yml",
   "codes": [
     "ATL",
+    "AUC",
     "AUS",
     "BAL",
     "BIR",
